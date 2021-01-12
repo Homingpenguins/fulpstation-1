@@ -1,51 +1,54 @@
 // This file is ment to hold all objects used in the radio station
 
 //Defines neccessary for a functioning radio network
+
 #define RADIO_CHANNEL_RADIO_STATION "RADIO_STATION"
 #define RADIO_KEY_RADIO_STATION "r"
 #define RADIO_TOKEN_RADIO_STATION ":r"
-#define FREQ_RADIO_STATION 1219  // green?
+#define FREQ_RADIO_STATION 1339  // salmon-ish
 
 //presets tcomm machines for the operation of the station channel
 /obj/machinery/telecomms/broadcaster/preset_radiostation
-	id = "Broadcaster A"
-	network = "tcommsat"
-	autolinkers = list("broadcasterA")
+	id = "Broadcaster"
+	network = "radiostation"
+	autolinkers = list("broadcaster")
 
 /obj/machinery/telecomms/server/presets/radiostation
-	id = "Radio Station Server"
+	id = "Server"
+	network = "radiostation"
 	freq_listening = list(FREQ_RADIO_STATION)
 	autolinkers = list("radio_station")
 
 /obj/machinery/telecomms/relay/preset/radiostation
-	id = "Radio Station Relay"
+	id = "rs_relay"
+	network = "radiostation"
 	autolinkers = list("rs_relay")
 
 /obj/machinery/telecomms/bus/preset_radiostation
-	id = "Bus 1"
-	network = "tcommsat"
+	id = "Bus"
+	network = "radiostation"
 	freq_listening = list(FREQ_RADIO_STATION)
-	autolinkers = list("processor1", "radio_station")
+	autolinkers = list("processor", "radio_station")
 
 /obj/machinery/telecomms/receiver/preset_radiostation
-	id = "Receiver A"
-	network = "tcommsat"
-	autolinkers = list("receiverA") // link to relay
+	id = "Receiver"
+	network = "radiostation"
+	autolinkers = list("receiver", "rs_relay")
 	freq_listening = list(FREQ_RADIO_STATION)
 
 /obj/machinery/telecomms/processor/preset_radiostation
-	id = "Processor 1"
-	network = "tcommsat"
-	autolinkers = list("processor1") // processors are sort of isolated; they don't need backward links
+	id = "Processor"
+	network = "radiostation"
+	autolinkers = list("processor")
 
 /obj/machinery/telecomms/hub/preset/radiostation
 	id = "Hub"
-	network = "tcommsat"
-	autolinkers = list("hub", "rs_relay", "science", "medical",
-	"supply", "service", "common", "command", "engineering", "security",
-	"receiverA", "broadcasterA", "broadcasterB", "autorelay", "radio_station")
+	network = "radiostation"
+	autolinkers = list("hub", "rs_relay", "receiver", "broadcaster", "radio_station", "allinone", "server")
 
 /obj/machinery/telecomms/allinone/radiostation
+	id = "allinone"
+	network = "radiostation"
 
 //A radio and intercomm for the radio host
 
@@ -57,7 +60,7 @@
 
 /obj/item/radio/headset/headset_radiostation
 	name = "radio host's radio headset"
-	desc = "Special made specifically for the radio host, so he can talk to the entire crew from the comfort of his own ear."
+	desc = "A headset that is Special made specifically for the radio host, so he can talk to the listeners from the comfort of their own ear."
 	icon = 'icons/fulpicons/radiohost.dmi'
 	icon_state = "rsh_headset"
 	keyslot = new /obj/item/encryptionkey/headset_rs
@@ -67,3 +70,16 @@
 	icon = 'icons/fulpicons/radiohost.dmi'
 	icon_state = "rsh_cypherkey"
 	channels = list(RADIO_CHANNEL_RADIO_STATION = 1)
+
+//Area stuff
+
+area/ruin/powered/radiostation
+	icon_state = "blue"
+
+//Datum stuff
+
+/datum/map_template/ruin/space/radiostation
+	id = "radiostation"
+	suffix = "radiostation.dmm"
+	name = "Nanotrasen Radio Station"
+	description = "A Nanotrasen approved and funded radio station that currently has its ears, and by extension half of the galexy's ears, on Space Station 13."
