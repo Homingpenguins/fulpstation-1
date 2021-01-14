@@ -1453,7 +1453,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/indestructible,
 /area/ruin/powered/radiostation)
 "FZ" = (
 /obj/structure/disposalpipe/segment,
@@ -1625,7 +1625,7 @@
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
 "KJ" = (
-/obj/machinery/telecomms/relay/preset/radiostation,
+/obj/machinery/ntnet_relay,
 /turf/open/floor/circuit/telecomms,
 /area/ruin/powered/radiostation)
 "KK" = (

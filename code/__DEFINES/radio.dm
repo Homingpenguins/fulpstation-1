@@ -49,6 +49,9 @@
 #define RADIO_CHANNEL_CTF_RED "Red Team"
 #define RADIO_CHANNEL_CTF_BLUE "Blue Team"
 
+#define RADIO_CHANNEL_RADIO_STATION "RadioStation"
+#define RADIO_KEY_RADIO_STATION "r"
+#define RADIO_TOKEN_RADIO_STATION ":r"
 
 #define MIN_FREE_FREQ 1201 // -------------------------------------------------
 // Frequencies are always odd numbers and range from 1201 to 1599.
@@ -57,6 +60,7 @@
 #define FREQ_CTF_RED 1215  // CTF red team comms frequency, red
 #define FREQ_CTF_BLUE 1217  // CTF blue team comms frequency, blue
 #define FREQ_CENTCOM 1337  // CentCom comms frequency, gray
+#define FREQ_RADIO_STATION 1339  // Radio Station comms frequency, salmon-ish
 #define FREQ_SUPPLY 1347  // Supply comms frequency, light brown
 #define FREQ_SERVICE 1349  // Service comms frequency, green
 #define FREQ_SCIENCE 1351  // Science comms frequency, plum

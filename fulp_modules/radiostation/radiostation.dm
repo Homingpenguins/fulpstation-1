@@ -1,34 +1,30 @@
 // This file is ment to hold all objects used in the radio station
 
-//Defines neccessary for a functioning radio network
-
-#define RADIO_CHANNEL_RADIO_STATION "RADIO_STATION"
-#define RADIO_KEY_RADIO_STATION "r"
-#define RADIO_TOKEN_RADIO_STATION ":r"
-#define FREQ_RADIO_STATION 1339  // salmon-ish
-
 //presets tcomm machines for the operation of the station channel
+/obj/machinery/telecomms/allinone/radiostation
+	id = "allinone"
+	network = "radiostation"
+
 /obj/machinery/telecomms/broadcaster/preset_radiostation
 	id = "Broadcaster"
 	network = "radiostation"
 	autolinkers = list("broadcaster")
 
-/obj/machinery/telecomms/server/presets/radiostation
-	id = "Server"
-	network = "radiostation"
-	freq_listening = list(FREQ_RADIO_STATION)
-	autolinkers = list("radio_station")
-
-/obj/machinery/telecomms/relay/preset/radiostation
-	id = "rs_relay"
-	network = "radiostation"
-	autolinkers = list("rs_relay")
-
 /obj/machinery/telecomms/bus/preset_radiostation
 	id = "Bus"
 	network = "radiostation"
 	freq_listening = list(FREQ_RADIO_STATION)
-	autolinkers = list("processor", "radio_station")
+	autolinkers = list("processor", "Radiostation")
+
+/obj/machinery/telecomms/hub/preset/radiostation
+	id = "Hub"
+	network = "radiostation"
+	autolinkers = list("hub", "rs_relay", "receiver", "broadcaster", "Radiostation", "allinone", "server")
+
+/obj/machinery/telecomms/processor/preset_radiostation
+	id = "Processor"
+	network = "radiostation"
+	autolinkers = list("processor")
 
 /obj/machinery/telecomms/receiver/preset_radiostation
 	id = "Receiver"
@@ -36,27 +32,26 @@
 	autolinkers = list("receiver", "rs_relay")
 	freq_listening = list(FREQ_RADIO_STATION)
 
-/obj/machinery/telecomms/processor/preset_radiostation
-	id = "Processor"
+/obj/machinery/telecomms/relay/preset/radiostation
+	id = "rs_relay"
 	network = "radiostation"
-	autolinkers = list("processor")
+	autolinkers = list("rs_relay")
 
-/obj/machinery/telecomms/hub/preset/radiostation
-	id = "Hub"
+/obj/machinery/telecomms/server/presets/radiostation
+	id = "Server"
 	network = "radiostation"
-	autolinkers = list("hub", "rs_relay", "receiver", "broadcaster", "radio_station", "allinone", "server")
-
-/obj/machinery/telecomms/allinone/radiostation
-	id = "allinone"
-	network = "radiostation"
+	freq_listening = list(FREQ_RADIO_STATION)
+	autolinkers = list("Radiostation")
 
 //A radio and intercomm for the radio host
 
 /obj/item/radio/intercom/radiostation
 	name = "Radiostation intercom"
 	anonymize = TRUE
-	frequency = 1219
+	frequency = FREQ_RADIO_STATION
 	broadcasting = TRUE
+	listening = TRUE
+	freqlock = TRUE
 
 /obj/item/radio/headset/headset_radiostation
 	name = "radio host's radio headset"
