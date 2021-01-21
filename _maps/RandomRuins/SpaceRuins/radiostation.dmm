@@ -492,6 +492,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 9
 	},
+/obj/effect/mob_spawn/human/Radiohost,
 /turf/open/floor/wood,
 /area/ruin/powered/radiostation)
 "lG" = (
@@ -2005,7 +2006,7 @@
 "SV" = (
 /obj/machinery/door/window/brigdoor/eastleft{
 	name = "Access Desk";
-	req_access_txt = "57"
+	req_access_txt = ""
 	},
 /turf/open/floor/circuit/red/telecomms,
 /area/ruin/powered/radiostation)

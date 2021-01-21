@@ -26,6 +26,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 
 	// Misc
 	RADIO_KEY_AI_PRIVATE = RADIO_CHANNEL_AI_PRIVATE, // AI Upload channel
+	RADIO_KEY_RADIO_STATION = RADIO_CHANNEL_RADIO_STATION, //Radiostation channel, fulp only
 
 
 	//kinda localization -- rastaf0
