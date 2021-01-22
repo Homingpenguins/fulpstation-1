@@ -23,7 +23,7 @@
 /obj/machinery/telecomms/hub/preset/radiostation
 	id = "Hub"
 	network = "radiostation"
-	autolinkers = list("hub", "rs_relay", "receiver", "broadcaster", "Radiostation", "allinone", "server")
+	autolinkers = list("hub", "rs_relay", "receiver", "broadcaster", "Radiostation", "allinone", "server", "Radiostation")
 
 /obj/machinery/telecomms/processor/preset_radiostation
 	id = "Processor"

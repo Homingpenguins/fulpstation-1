@@ -179,10 +179,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered/radiostation)
-"fC" = (
-/obj/machinery/telecomms/server/presets/radiostation,
-/turf/open/floor/circuit/green/telecomms,
-/area/ruin/powered/radiostation)
 "fE" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 2
@@ -202,7 +198,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered/radiostation)
 "fL" = (
-/obj/machinery/door/window/brigdoor/eastright,
+/obj/machinery/door/window/brigdoor/eastright{
+	req_access_txt = "209"
+	},
 /turf/open/floor/circuit/red/telecomms,
 /area/ruin/powered/radiostation)
 "fT" = (
@@ -768,7 +766,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered/radiostation)
 "ry" = (
-/obj/machinery/door/airlock/centcom,
+/obj/machinery/door/airlock/centcom{
+	req_access_txt = "209"
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -826,10 +826,6 @@
 	dir = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"sm" = (
-/obj/machinery/telecomms/allinone/radiostation,
-/turf/open/floor/circuit/green/telecomms,
 /area/ruin/powered/radiostation)
 "su" = (
 /obj/structure/disposalpipe/segment{
@@ -959,6 +955,10 @@
 /area/ruin/powered/radiostation)
 "vh" = (
 /turf/closed/indestructible/riveted,
+/area/ruin/powered/radiostation)
+"vs" = (
+/obj/machinery/telecomms/relay/preset/radiostation,
+/turf/open/floor/engine/telecomms,
 /area/ruin/powered/radiostation)
 "vx" = (
 /obj/structure/window/reinforced,
@@ -1142,6 +1142,13 @@
 	dir = 10
 	},
 /turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"yr" = (
+/obj/machinery/telecomms/server/presets/radiostation,
+/turf/open/floor/circuit/telecomms,
+/area/ruin/powered/radiostation)
+"yw" = (
+/turf/open/floor/circuit/green/telecomms,
 /area/ruin/powered/radiostation)
 "yC" = (
 /turf/open/space/basic,
@@ -1802,7 +1809,9 @@
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
 "Pf" = (
-/obj/machinery/door/airlock/centcom,
+/obj/machinery/door/airlock/centcom{
+	req_access_txt = "209"
+	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
@@ -1915,7 +1924,9 @@
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
 "RA" = (
-/obj/machinery/door/airlock/centcom,
+/obj/machinery/door/airlock/centcom{
+	req_access_txt = "209"
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -2006,7 +2017,7 @@
 "SV" = (
 /obj/machinery/door/window/brigdoor/eastleft{
 	name = "Access Desk";
-	req_access_txt = ""
+	req_access_txt = "209"
 	},
 /turf/open/floor/circuit/red/telecomms,
 /area/ruin/powered/radiostation)
@@ -2800,7 +2811,7 @@ vh
 ga
 tx
 Wt
-WG
+yr
 Ff
 KJ
 ga
@@ -2902,10 +2913,10 @@ dy
 iH
 vh
 Yx
-fC
-sm
-WG
 AK
+yw
+vs
+yw
 KU
 Yx
 vh
