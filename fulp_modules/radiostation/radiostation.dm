@@ -5,9 +5,6 @@
 #define ACCESS_AWAY_RADIOSTATION 209
 
 //presets tcomm machines for the operation of the station channel
-/obj/machinery/telecomms/allinone/radiostation
-	id = "allinone"
-	network = "radiostation"
 
 /obj/machinery/telecomms/broadcaster/preset_radiostation
 	id = "Broadcaster"
@@ -23,7 +20,7 @@
 /obj/machinery/telecomms/hub/preset/radiostation
 	id = "Hub"
 	network = "radiostation"
-	autolinkers = list("hub", "rs_relay", "receiver", "broadcaster", "Radiostation", "allinone", "server", "Radiostation")
+	autolinkers = list("hub", "Rs_relay", "receiver", "broadcaster", "Radiostation", "allinone", "server", "Radiostation")
 
 /obj/machinery/telecomms/processor/preset_radiostation
 	id = "Processor"
@@ -33,19 +30,21 @@
 /obj/machinery/telecomms/receiver/preset_radiostation
 	id = "Receiver"
 	network = "radiostation"
-	autolinkers = list("receiver", "rs_relay")
+	autolinkers = list("receiver", "Rs_relay")
 	freq_listening = list(FREQ_RADIO_STATION)
 
 /obj/machinery/telecomms/relay/preset/radiostation
-	id = "rs_relay"
+	id = "Rs_relay"
 	network = "radiostation"
-	autolinkers = list("rs_relay")
+	autolinkers = list("Rs_relay", "Reciever")
 
 /obj/machinery/telecomms/server/presets/radiostation
 	id = "Server"
 	network = "radiostation"
 	freq_listening = list(FREQ_RADIO_STATION)
 	autolinkers = list("Radiostation")
+
+//other objects, starting with the radio host's id
 
 /obj/item/card/id/radiohost
 	name = "Radio Host"
@@ -56,11 +55,12 @@
 
 /obj/item/radio/intercom/radiostation
 	name = "Radiostation intercom"
-	anonymize = TRUE
+	anonymize = FALSE
 	frequency = FREQ_RADIO_STATION
-	broadcasting = TRUE
+	broadcasting = FALSE
 	listening = TRUE
 	freqlock = TRUE
+	canhear_range = 5
 
 /obj/item/radio/headset/headset_radiostation
 	name = "radio host's radio headset"
@@ -85,7 +85,7 @@ area/ruin/powered/radiostation
 /datum/map_template/ruin/space/radiostation
 	id = "radiostation"
 	suffix = "radiostation.dmm"
-	name = "Nanotrasen Radio Station"
+	name = "radiostation"
 	description = "A Nanotrasen approved and funded radio station that currently has its ears, and by extension half of the galexy's ears, on Space Station 13."
 	always_place = TRUE
 	cost = 0

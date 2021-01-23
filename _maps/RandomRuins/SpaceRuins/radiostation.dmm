@@ -390,7 +390,8 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 4;
-	name = "Scrubbers to air"
+	name = "Scrubbers to air";
+	on = 1
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
@@ -1727,7 +1728,8 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8;
-	name = "Air to Pure"
+	name = "Air to Pure";
+	on = 1
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
