@@ -1,5 +1,542 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "an" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/donut_box,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"au" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"aB" = (
+/obj/machinery/microwave{
+	desc = "Cooks and boils stuff, somehow.";
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/structure/table/reinforced,
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"aY" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/donut_box,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"bf" = (
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"bO" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"bX" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/ruin/powered/radiostation)
+"bY" = (
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_y = 2
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"cF" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"cM" = (
+/obj/machinery/space_heater,
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"cP" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"cT" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"cY" = (
+/obj/machinery/door/poddoor/massdriver_trash,
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/powered/radiostation)
+"dv" = (
+/obj/machinery/door/airlock/centcom{
+	req_access_txt = "209"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"dy" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"dF" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"dO" = (
+/obj/structure/chair/sofa/right,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"el" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/machinery/button/door{
+	name = "Office Privacy Shutters";
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"eJ" = (
+/obj/structure/chair/sofa/corner,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"eS" = (
+/obj/machinery/vending/dinnerware,
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"ff" = (
+/obj/machinery/door/airlock/centcom{
+	req_access_txt = "209"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"fj" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"fE" = (
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"fK" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"fL" = (
+/obj/structure/chair/greyscale,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"fT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"fZ" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"ga" = (
+/obj/machinery/holopad,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"gi" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"gm" = (
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 2
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"gr" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"gL" = (
+/obj/structure/table/glass,
+/obj/machinery/button/door{
+	name = "Radio Host Privacy Doors";
+	pixel_x = 5;
+	pixel_y = -3
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"gO" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"gS" = (
+/obj/structure/table/reinforced,
+/obj/structure/displaycase/forsale/kitchen,
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"hO" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"hR" = (
+/obj/structure/rack,
+/obj/item/reagent_containers/food/condiment/soysauce{
+	pixel_x = 10;
+	pixel_y = 8
+	},
+/obj/item/food/mint,
+/obj/item/reagent_containers/food/condiment/enzyme{
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/freezer,
+/area/ruin/powered/radiostation)
+"hV" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"ip" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"iu" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"iA" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"iH" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"iI" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"iQ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"ja" = (
+/obj/machinery/button/door{
+	name = "Radio Station Quarantine";
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/structure/table/wood,
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"je" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"ji" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"jn" = (
+/obj/structure/disposalpipe/junction/flip{
+	dir = 2
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"jQ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"jS" = (
+/obj/item/storage/box/donkpockets{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_y = 3
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = 2
+	},
+/obj/structure/rack,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"jX" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/ruin/powered/radiostation)
+"kk" = (
+/obj/machinery/door/airlock/centcom{
+	req_access_txt = "209"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"kr" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"ks" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"kx" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"kU" = (
+/obj/item/storage/toolbox/electrical,
+/obj/structure/table/reinforced,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"kY" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/rglass{
+	amount = 20;
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/plasteel/twenty{
+	pixel_x = 5;
+	pixel_y = -3
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"lC" = (
+/obj/structure/window/reinforced,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"lE" = (
+/obj/structure/rack,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/stack/cable_coil,
+/turf/open/floor/plasteel,
+/area/ruin/powered/radiostation)
+"lG" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"lM" = (
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"lS" = (
+/obj/structure/disposalpipe/junction/flip{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"lU" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/security/wooden_tv,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"md" = (
+/obj/structure/table/wood,
+/obj/item/paper/carbon,
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"mn" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"mJ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/light,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"mR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"nb" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"nj" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"nk" = (
+/obj/structure/table/reinforced,
+/obj/item/stack/sheet/glass{
+	amount = 20;
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/stack/sheet/metal/twenty{
+	pixel_x = -4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"no" = (
 /obj/structure/disposaloutlet{
 	dir = 4
 	},
@@ -9,39 +546,1047 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered/radiostation)
-"au" = (
+"nM" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"nY" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"om" = (
+/obj/machinery/recycler,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"os" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"oK" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"oX" = (
+/obj/machinery/conveyor{
+	dir = 6;
+	id = "garbage"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"pq" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/obj/item/radio/intercom/radiostation{
+	pixel_x = 30
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"ps" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/turf/open/space/basic,
+/area/ruin/powered/radiostation)
+"pE" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"pN" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"pR" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"pX" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"qd" = (
+/obj/machinery/door/airlock/centcom,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"qu" = (
+/obj/machinery/conveyor{
+	id = "garbage"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"qK" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"qU" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"qX" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"qZ" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"rj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"rw" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"ry" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"rF" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/toy/plush/slimeplushie,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"rS" = (
+/obj/machinery/computer/camera_advanced,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"rT" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/toy/plush/narplush,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"sa" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"su" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"sz" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"sL" = (
+/obj/structure/chair/comfy/black,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"tb" = (
+/obj/machinery/holopad,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"tg" = (
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"tr" = (
+/obj/machinery/computer/med_data/syndie{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"tu" = (
+/obj/structure/chair/comfy{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"tx" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/effect/mob_spawn/human/Radiohost,
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"tz" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"tR" = (
+/obj/machinery/computer/message_monitor{
+	dir = 8
+	},
+/obj/item/paper/monitorkey,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"tS" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"tT" = (
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"um" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"uC" = (
+/obj/structure/window/reinforced,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"uF" = (
+/obj/structure/window/reinforced,
+/obj/machinery/space_heater,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"uU" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen/fountain,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"vh" = (
+/turf/closed/indestructible/riveted,
+/area/ruin/powered/radiostation)
+"vs" = (
+/obj/structure/window/reinforced,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"vx" = (
+/obj/structure/window/reinforced,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"vA" = (
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder{
+	desc = "Used to grind things up into raw materials and liquids.";
+	pixel_y = 5
+	},
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"vX" = (
+/obj/machinery/door/airlock/centcom,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"vZ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"wb" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"wf" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"wl" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"wm" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"wr" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/light,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"wx" = (
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"wy" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"wK" = (
+/obj/structure/table/wood/fancy/black,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"wM" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"wQ" = (
+/obj/machinery/computer/warrant{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"wS" = (
+/obj/structure/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"xi" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"xp" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"xv" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/trinary/filter/atmos/o2{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"xW" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/trinary/filter/atmos/n2{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"yc" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"yg" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"yi" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/radio/intercom/radiostation,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"yl" = (
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"yo" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"yw" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"yC" = (
+/turf/open/space/basic,
+/area/space)
+"za" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"zl" = (
+/obj/structure/table/reinforced,
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"zm" = (
+/obj/structure/table/greyscale,
+/obj/item/storage/fancy/donut_box,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"zV" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"zZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"AK" = (
+/obj/structure/bed,
+/obj/item/bedsheet/cosmos,
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"AO" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Bh" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/circuit/red/telecomms,
+/area/ruin/powered/radiostation)
+"Cg" = (
+/turf/open/floor/circuit/red/telecomms,
+/area/ruin/powered/radiostation)
+"Cw" = (
+/obj/machinery/door/window/brigdoor/eastleft{
+	name = "Access Desk";
+	req_access_txt = "209"
+	},
+/turf/open/floor/circuit/red/telecomms,
+/area/ruin/powered/radiostation)
+"CA" = (
+/obj/machinery/door/window/brigdoor/eastright{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"CE" = (
+/obj/machinery/computer/telecomms/server,
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"CG" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen/fountain,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"CI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"CL" = (
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"CN" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/storage/fancy/donut_box,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"CU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"CY" = (
+/obj/structure/chair/comfy{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"CZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -3
+	},
+/obj/machinery/button/door{
+	name = "Meeting Room Privacy Doors";
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/storage/fancy/donut_box{
+	pixel_y = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Dg" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Dj" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"Dw" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/air_input{
+	dir = 8
+	},
+/turf/open/floor/engine/air,
+/area/ruin/powered/radiostation)
+"DB" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/engine/air,
+/area/ruin/powered/radiostation)
+"DC" = (
+/obj/machinery/telecomms/bus/preset_radiostation,
+/turf/open/floor/circuit/telecomms,
+/area/ruin/powered/radiostation)
+"DK" = (
+/turf/open/floor/engine/telecomms,
+/area/ruin/powered/radiostation)
+"DP" = (
+/obj/machinery/telecomms/receiver/preset_radiostation,
+/turf/open/floor/circuit/green/telecomms,
+/area/ruin/powered/radiostation)
+"DR" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/circuit/red/telecomms,
+/area/ruin/powered/radiostation)
+"DX" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"El" = (
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"EF" = (
+/obj/structure/table/reinforced,
+/obj/item/folder{
+	pixel_x = -6
+	},
+/obj/item/radio/intercom/radiostation{
+	pixel_x = 29;
+	pixel_y = -4
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"Ff" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Fg" = (
+/obj/structure/disposalpipe/junction/flip{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Fk" = (
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Fo" = (
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Fp" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Fw" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1
+	},
+/obj/machinery/computer/station_alert{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"FD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"FH" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/flashlight,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/powered/radiostation)
+"FJ" = (
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"FO" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"FP" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/conveyor_switch/oneway{
+	dir = 8;
+	id = "garbage";
+	name = "disposal conveyor"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Gq" = (
+/obj/machinery/telecomms/processor/preset_radiostation,
+/turf/open/floor/circuit/telecomms,
+/area/ruin/powered/radiostation)
+"Gs" = (
+/turf/open/floor/circuit/green/telecomms,
+/area/ruin/powered/radiostation)
+"Gx" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass/filled/cola{
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/filled/cola{
+	pixel_x = 10;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/filled/cola{
+	pixel_y = 7
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Gy" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"GN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Ha" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"Ho" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Ht" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"HI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"HM" = (
+/obj/machinery/washing_machine,
+/obj/structure/window/spawner{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"HZ" = (
+/obj/structure/table/wood,
+/obj/item/folder{
+	pixel_x = -6
+	},
+/obj/item/folder/blue{
+	pixel_x = -3
+	},
+/obj/item/folder/yellow,
+/obj/item/folder/red{
+	pixel_x = 3
+	},
+/obj/item/folder/white{
+	pixel_x = 6
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Ia" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Ib" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/computer/apc_control{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Ix" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"IW" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Jq" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/machinery/computer/atmos_alert{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"JM" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"aB" = (
-/obj/structure/table/wood/fancy/black,
+"JO" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
+	dir = 5
+	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"be" = (
+"JS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Kn" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/paper_bin,
+/obj/item/pen/fountain,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Kp" = (
+/obj/machinery/telecomms/relay/preset/radiostation,
+/turf/open/floor/engine/telecomms,
+/area/ruin/powered/radiostation)
+"Kw" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"KB" = (
+/obj/machinery/door/airlock/centcom,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"KC" = (
+/obj/machinery/door/airlock/centcom,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"KE" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"KI" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"KJ" = (
+/obj/machinery/door/airlock/centcom,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"bf" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"bY" = (
-/obj/structure/table/wood,
-/obj/item/radio/intercom/radiostation,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"ch" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+"KK" = (
+/obj/machinery/light{
 	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"KO" = (
+/obj/structure/rack,
+/obj/item/storage/box/ingredients/wildcard{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/item/kitchen/knife,
+/obj/item/kitchen/rollingpin,
+/turf/open/floor/plasteel/freezer,
+/area/ruin/powered/radiostation)
+"KU" = (
+/obj/structure/disposalpipe/junction/flip{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"cF" = (
+"Le" = (
+/obj/machinery/door/airlock/centcom,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Lu" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass/filled/nuka_cola{
 	pixel_x = -10
@@ -63,224 +1608,51 @@
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"cM" = (
+"LW" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"LZ" = (
 /obj/machinery/door/airlock/centcom,
-/obj/structure/disposalpipe/segment{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"cP" = (
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_x = -3;
-	pixel_y = 5
-	},
-/obj/structure/table/reinforced,
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"cT" = (
-/obj/structure/chair/comfy/black{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"cY" = (
-/obj/structure/table/glass,
-/obj/item/storage/firstaid/regular{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/storage/firstaid/brute{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/brute{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/structure/window/reinforced,
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 4
-	},
-/obj/machinery/door/window/eastleft{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
+"Mf" = (
+/obj/machinery/vending/coffee,
+/turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"dv" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/closed/indestructible/riveted,
-/area/ruin/powered/radiostation)
-"dy" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
-/turf/open/space/basic,
-/area/ruin/powered/radiostation)
-"dF" = (
+"Mk" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"dO" = (
-/obj/machinery/vending/dinnerware,
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"dW" = (
-/obj/effect/spawner/randomsnackvend,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"eJ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer2{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 9
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"eS" = (
-/obj/machinery/door/airlock/centcom,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"ff" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"fj" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/computer/camera_advanced{
+"MC" = (
+/obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered/radiostation)
-"fE" = (
-/obj/structure/disposalpipe/junction/flip{
-	dir = 2
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
+"MG" = (
+/obj/machinery/vending/boozeomat/all_access,
+/obj/machinery/light,
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"fK" = (
-/obj/structure/chair/comfy{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"fL" = (
-/obj/machinery/door/window/brigdoor/eastright{
-	req_access_txt = "209"
-	},
-/turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
-"fT" = (
-/obj/structure/disposalpipe/junction/yjunction{
-	dir = 2
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
+"MI" = (
+/obj/machinery/space_heater,
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"ga" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
-"gi" = (
+"MQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"gm" = (
-/obj/item/storage/toolbox/electrical,
-/obj/structure/table/reinforced,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"gr" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"gL" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"gO" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"gS" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"hh" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"hy" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"hO" = (
-/obj/structure/chair/comfy/black{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
@@ -289,130 +1661,225 @@
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"hR" = (
+"MY" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
 /turf/open/indestructible/white,
 /area/ruin/powered/radiostation)
-"hV" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+"Nh" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = 6
+	},
+/obj/item/pen/fountain{
+	pixel_x = 6
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Ny" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"NA" = (
+/obj/machinery/door/airlock/centcom,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"NZ" = (
+/obj/structure/table/wood,
+/obj/item/radio/intercom/radiostation,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"On" = (
+/obj/machinery/door/airlock/centcom,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Oo" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Ou" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"OE" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Pb" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Pd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
+	dir = 5
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Pf" = (
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Pg" = (
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Pz" = (
+/obj/machinery/mass_driver/trash{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"PB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/visible{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"PD" = (
+/obj/structure/closet/secure_closet/medical3,
+/obj/item/screwdriver{
+	pixel_y = 6
+	},
+/obj/item/storage/belt/medical{
+	pixel_y = 2
+	},
+/obj/item/clothing/neck/stethoscope,
 /turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"ia" = (
-/obj/machinery/door/airlock/centcom,
+"PY" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 8;
+	name = "Air to Pure";
+	on = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"PZ" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Qa" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/machinery/atmospherics/pipe/simple/supply/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/powered/radiostation)
+"Qb" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/atmos/air_output{
+	dir = 8
+	},
+/turf/open/floor/engine/air,
+/area/ruin/powered/radiostation)
+"Qx" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"QO" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"ip" = (
-/obj/structure/bed,
-/obj/item/bedsheet/cosmos,
-/turf/open/floor/wood,
+"QP" = (
+/obj/machinery/telecomms/server/presets/radiostation,
+/turf/open/floor/circuit/telecomms,
 /area/ruin/powered/radiostation)
-"iu" = (
-/obj/structure/window/reinforced{
-	dir = 1
+"QY" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
 	},
-/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+/turf/closed/indestructible/riveted,
+/area/ruin/powered/radiostation)
+"Rc" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Ro" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/indestructible/white,
+/area/ruin/powered/radiostation)
+"RA" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
+/turf/closed/indestructible/riveted,
+/area/ruin/powered/radiostation)
+"RC" = (
+/obj/machinery/telecomms/hub/preset/radiostation,
+/turf/open/floor/circuit/telecomms,
+/area/space)
+"RE" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"iv" = (
-/mob/living/simple_animal/crab/coffee,
-/obj/structure/bed/dogbed{
-	name = "Coffee's bed"
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plating/beach/sand,
+"RI" = (
+/obj/machinery/telecomms/broadcaster/preset_radiostation,
+/turf/open/floor/circuit/green/telecomms,
 /area/ruin/powered/radiostation)
-"iA" = (
-/obj/item/storage/box/donkpockets{
-	pixel_x = -2;
-	pixel_y = 6
-	},
-/obj/item/storage/box/donkpockets{
-	pixel_y = 3
-	},
-/obj/item/storage/box/donkpockets{
-	pixel_x = 2
-	},
-/obj/structure/rack,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"iH" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/ruin/powered/radiostation)
-"iI" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"iQ" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"ja" = (
-/obj/machinery/conveyor{
-	dir = 6;
-	id = "garbage"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"je" = (
-/obj/structure/chair/comfy{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"ji" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 4;
-	name = "Scrubbers to air";
-	on = 1
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"jn" = (
-/obj/machinery/door/poddoor/massdriver_trash,
-/obj/structure/fans/tiny,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/ruin/powered/radiostation)
-"jQ" = (
+"RV" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/flashlight,
-/obj/machinery/light{
-	dir = 1
+/obj/item/folder{
+	pixel_x = -6
 	},
-/turf/open/floor/plasteel,
+/obj/item/radio/intercom/radiostation{
+	pixel_x = 29
+	},
+/turf/open/floor/engine,
 /area/ruin/powered/radiostation)
-"jS" = (
+"Sf" = (
 /mob/living/simple_animal/pet/penguin/emperor{
 	name = "Molly"
 	},
@@ -427,138 +1894,55 @@
 	},
 /turf/open/floor/grass/snow/safe,
 /area/ruin/powered/radiostation)
-"jX" = (
-/obj/structure/filingcabinet/chestdrawer{
-	pixel_y = 2
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"kk" = (
-/obj/machinery/door/airlock/centcom,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"kr" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"ks" = (
-/obj/structure/table/greyscale,
-/obj/item/storage/fancy/donut_box,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"kx" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"kU" = (
-/obj/structure/table/reinforced,
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"kW" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"kY" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"lz" = (
-/obj/structure/table/wood/fancy/black,
-/obj/item/radio/intercom/radiostation,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"lC" = (
-/obj/machinery/space_heater,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"lE" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/obj/effect/mob_spawn/human/Radiohost,
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"lG" = (
-/obj/machinery/door/airlock/centcom,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"lM" = (
-/obj/structure/disposalpipe/junction{
+"Ss" = (
+/obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
+/obj/structure/window/reinforced{
+	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 8
+/turf/open/floor/grass/snow/safe,
+/area/ruin/powered/radiostation)
+"Sx" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"lS" = (
+"Sy" = (
+/obj/effect/spawner/randomsnackvend,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"SE" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"SU" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"SV" = (
+/obj/machinery/stasis,
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"SW" = (
+/obj/structure/table/glass,
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"Te" = (
 /obj/machinery/stasis,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"lU" = (
-/obj/structure/chair/comfy,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"lX" = (
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/grass/snow/safe,
-/area/ruin/powered/radiostation)
-"mn" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"mJ" = (
-/obj/structure/disposalpipe/junction/flip{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"mR" = (
-/obj/machinery/mass_driver/trash{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"nb" = (
-/obj/machinery/suit_storage_unit/standard_unit,
-/obj/machinery/light,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"nj" = (
+"Tg" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 5
 	},
@@ -571,18 +1955,89 @@
 	},
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
-"nk" = (
-/obj/structure/closet/secure_closet/medical3,
-/obj/item/screwdriver{
-	pixel_y = 6
+"Tj" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste{
+	dir = 8
 	},
-/obj/item/storage/belt/medical{
-	pixel_y = 2
+/turf/open/space/basic,
+/area/ruin/powered/radiostation)
+"Ts" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
 	},
-/obj/item/clothing/neck/stethoscope,
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"TQ" = (
+/obj/machinery/door/window/brigdoor/eastright{
+	req_access_txt = "209"
+	},
+/turf/open/floor/circuit/red/telecomms,
+/area/ruin/powered/radiostation)
+"TR" = (
+/obj/machinery/door/window/brigdoor/eastleft{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"Ub" = (
+/obj/machinery/computer/telecomms/monitor{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/ruin/powered/radiostation)
+"UH" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/grass/snow/safe,
+/area/ruin/powered/radiostation)
+"UR" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4;
+	name = "Scrubbers to air";
+	on = 1
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"UT" = (
+/obj/machinery/holopad,
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"UZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"no" = (
+"Vi" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/turf/open/floor/plating,
+/area/ruin/powered/radiostation)
+"Vt" = (
+/obj/structure/reagent_dispensers/fueltank/large,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Wj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/computer/camera_advanced{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/powered/radiostation)
+"Wp" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -600,98 +2055,163 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered/radiostation)
-"nY" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"om" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"oU" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"oX" = (
+"Wr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"pb" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"pq" = (
-/obj/structure/table/wood,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"ps" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"pE" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"pN" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 9
 	},
-/turf/open/indestructible,
+/turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"pR" = (
+"Wt" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"Wz" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"WD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"WG" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/powered/radiostation)
+"WO" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"WQ" = (
+/mob/living/simple_animal/crab/coffee,
+/obj/structure/bed/dogbed{
+	name = "Coffee's bed"
+	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/beach/sand,
+/area/ruin/powered/radiostation)
+"WX" = (
+/obj/structure/chair/comfy,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Xb" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Xj" = (
+/obj/structure/chair/comfy,
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Xq" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/grass/snow/safe,
+/turf/closed/indestructible/riveted,
 /area/ruin/powered/radiostation)
-"pX" = (
+"XC" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/powered/radiostation)
+"XE" = (
+/obj/machinery/space_heater,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Ym" = (
+/turf/open/floor/engine/air,
+/area/ruin/powered/radiostation)
+"Yx" = (
 /obj/structure/disposalpipe/segment{
-	dir = 6
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 6
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
 	},
-/turf/open/indestructible,
+/turf/open/floor/wood,
 /area/ruin/powered/radiostation)
-"qd" = (
-/obj/structure/table/wood/fancy/black,
-/obj/item/toy/plush/slimeplushie,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"qu" = (
-/obj/machinery/stasis,
+"YB" = (
 /turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"qK" = (
+"YC" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"YH" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plating/beach/sand,
+/area/ruin/powered/radiostation)
+"Za" = (
+/obj/structure/filingcabinet/medical,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Zb" = (
+/obj/structure/table/wood,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Zd" = (
+/obj/structure/table/wood,
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Zk" = (
+/obj/structure/table/reinforced,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Zt" = (
+/obj/machinery/photocopier,
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"Zy" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/bodybags{
 	pixel_x = 3;
@@ -728,1414 +2248,7 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"qU" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"qX" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"qZ" = (
-/obj/structure/window/reinforced,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"rj" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/trinary/filter/atmos/n2{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"rw" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/computer/apc_control{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"ry" = (
-/obj/machinery/door/airlock/centcom{
-	req_access_txt = "209"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"rF" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
-/obj/machinery/atmospherics/pipe/simple/supply/visible{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/ruin/powered/radiostation)
-"rS" = (
-/obj/structure/table/glass,
-/obj/machinery/button/door{
-	name = "Radio Host Privacy Doors";
-	pixel_x = 5;
-	pixel_y = -3
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"rT" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1
-	},
-/obj/structure/table/reinforced,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = -3
-	},
-/obj/machinery/button/door{
-	name = "Meeting Room Privacy Doors";
-	pixel_x = 6;
-	pixel_y = -3
-	},
-/obj/item/storage/fancy/donut_box{
-	pixel_y = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"sa" = (
-/obj/machinery/holopad,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"su" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"sz" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/trinary/filter/atmos/o2{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"sL" = (
-/obj/structure/window/reinforced,
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"tb" = (
-/obj/machinery/vending/boozeomat/all_access,
-/obj/machinery/light,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"tg" = (
-/obj/machinery/vending/coffee,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"tr" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"tu" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"tx" = (
-/obj/machinery/telecomms/bus/preset_radiostation,
-/turf/open/floor/circuit/telecomms,
-/area/ruin/powered/radiostation)
-"tR" = (
-/turf/open/floor/engine/air,
-/area/ruin/powered/radiostation)
-"tS" = (
-/obj/structure/chair/comfy/black{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"tT" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"um" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"us" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"uC" = (
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"uF" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"uH" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"uL" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"vh" = (
-/turf/closed/indestructible/riveted,
-/area/ruin/powered/radiostation)
-"vs" = (
-/obj/machinery/telecomms/relay/preset/radiostation,
-/turf/open/floor/engine/telecomms,
-/area/ruin/powered/radiostation)
-"vx" = (
-/obj/structure/window/reinforced,
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"vA" = (
-/obj/structure/chair/comfy/black{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"vX" = (
-/obj/structure/rack,
-/obj/item/tank/internals/emergency_oxygen/engi,
-/obj/item/stack/cable_coil,
-/turf/open/floor/plasteel,
-/area/ruin/powered/radiostation)
-"vZ" = (
-/obj/machinery/computer/telecomms/server,
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"wb" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 10
-	},
-/turf/closed/indestructible/riveted,
-/area/ruin/powered/radiostation)
-"wf" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"wl" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"wm" = (
-/obj/machinery/computer/warrant{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"wr" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"wx" = (
-/obj/structure/chair/office/light{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"wy" = (
-/obj/machinery/door/airlock/centcom,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"wK" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"wM" = (
-/obj/structure/rack,
-/obj/item/storage/box/ingredients/wildcard{
-	pixel_x = 4;
-	pixel_y = -3
-	},
-/obj/item/kitchen/knife,
-/obj/item/kitchen/rollingpin,
-/turf/open/floor/plasteel/freezer,
-/area/ruin/powered/radiostation)
-"wQ" = (
-/obj/structure/table/reinforced,
-/obj/machinery/reagentgrinder{
-	desc = "Used to grind things up into raw materials and liquids.";
-	pixel_y = 5
-	},
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"wS" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"xi" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk,
-/obj/item/radio/intercom/radiostation{
-	pixel_x = 30
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"xv" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/light,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"xW" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"yc" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/holopad,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"yg" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"yi" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"yl" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"yo" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"yr" = (
-/obj/machinery/telecomms/server/presets/radiostation,
-/turf/open/floor/circuit/telecomms,
-/area/ruin/powered/radiostation)
-"yw" = (
-/turf/open/floor/circuit/green/telecomms,
-/area/ruin/powered/radiostation)
-"yC" = (
-/turf/open/space/basic,
-/area/space)
-"za" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"ze" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"zl" = (
-/obj/structure/table/wood/fancy/black,
-/obj/item/paper_bin,
-/obj/item/pen/fountain,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"zm" = (
-/obj/machinery/door/window/brigdoor/eastright{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"zV" = (
-/obj/machinery/computer/camera_advanced,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"zZ" = (
-/obj/structure/table/reinforced,
-/obj/item/paper_bin,
-/obj/item/pen/fountain,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"AK" = (
-/obj/machinery/telecomms/receiver/preset_radiostation,
-/turf/open/floor/circuit/green/telecomms,
-/area/ruin/powered/radiostation)
-"AO" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/machinery/conveyor_switch/oneway{
-	dir = 8;
-	id = "garbage";
-	name = "disposal conveyor"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"Bh" = (
-/obj/structure/rack,
-/obj/item/reagent_containers/food/condiment/soysauce{
-	pixel_x = 10;
-	pixel_y = 8
-	},
-/obj/item/food/mint,
-/obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_y = 5
-	},
-/turf/open/floor/plasteel/freezer,
-/area/ruin/powered/radiostation)
-"Bu" = (
-/obj/structure/table/wood,
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Cg" = (
-/obj/machinery/door/airlock/centcom,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"Cw" = (
-/obj/machinery/computer/med_data/syndie{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"CA" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/air_input{
-	dir = 8
-	},
-/turf/open/floor/engine/air,
-/area/ruin/powered/radiostation)
-"CE" = (
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"CG" = (
-/obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/engine/air,
-/area/ruin/powered/radiostation)
-"CI" = (
-/obj/structure/chair/comfy/black,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"CL" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"CN" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"CU" = (
-/obj/structure/disposalpipe/junction/yjunction{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"CY" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"CZ" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Dg" = (
-/obj/structure/disposalpipe/junction{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Dj" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Dw" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"DB" = (
-/obj/structure/table/reinforced,
-/obj/machinery/computer/security/wooden_tv,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"DC" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/machinery/button/door{
-	name = "Office Privacy Shutters";
-	pixel_x = -6;
-	pixel_y = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"DK" = (
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"DP" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/ruin/powered/radiostation)
-"DR" = (
-/obj/machinery/door/airlock/external,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"DX" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 5
-	},
-/turf/closed/indestructible/riveted,
-/area/ruin/powered/radiostation)
-"El" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"EF" = (
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 4
-	},
-/obj/machinery/light,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"EO" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen/fountain,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ff" = (
-/obj/machinery/telecomms/hub/preset/radiostation,
-/turf/open/floor/circuit/telecomms,
-/area/ruin/powered/radiostation)
-"Fg" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Fk" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"Fo" = (
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Fp" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Fw" = (
-/obj/structure/chair/sofa/right,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"FD" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"FH" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"FJ" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"FO" = (
-/obj/machinery/holopad,
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"FP" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"FS" = (
-/obj/machinery/door/airlock/centcom,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"FZ" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Gq" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"Gs" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"Gx" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/atmos/air_output{
-	dir = 8
-	},
-/turf/open/floor/engine/air,
-/area/ruin/powered/radiostation)
-"Gy" = (
-/obj/machinery/atmospherics/pipe/layer_manifold,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ha" = (
-/obj/structure/chair/comfy/black{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ho" = (
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"HI" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1
-	},
-/obj/machinery/computer/station_alert{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"HM" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"Ia" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ib" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ix" = (
-/obj/machinery/photocopier,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"IV" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"IW" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Jq" = (
-/obj/machinery/atmospherics/pipe/simple/supply/visible{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"JK" = (
-/obj/structure/table/reinforced,
-/obj/item/folder{
-	pixel_x = -6
-	},
-/obj/item/radio/intercom/radiostation{
-	pixel_x = 29
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"JO" = (
-/obj/structure/table/glass,
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"JR" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"JS" = (
-/obj/machinery/button/door{
-	name = "Radio Station Quarantine";
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/structure/table/wood,
-/obj/machinery/light,
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"Kn" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Kp" = (
-/obj/structure/reagent_dispensers/fueltank/large,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"KB" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_x = 6
-	},
-/obj/item/pen/fountain{
-	pixel_x = 6
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"KC" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"KI" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"KJ" = (
-/obj/machinery/ntnet_relay,
-/turf/open/floor/circuit/telecomms,
-/area/ruin/powered/radiostation)
-"KK" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"KO" = (
-/obj/structure/chair/comfy{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"KS" = (
-/obj/machinery/door/airlock/centcom,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/ruin/powered/radiostation)
-"KU" = (
-/obj/machinery/telecomms/broadcaster/preset_radiostation,
-/turf/open/floor/circuit/green/telecomms,
-/area/ruin/powered/radiostation)
-"Le" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Lu" = (
-/obj/machinery/washing_machine,
-/obj/structure/window/spawner{
-	dir = 1
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"LW" = (
-/obj/machinery/holopad,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Mf" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"Mq" = (
-/obj/structure/tank_dispenser/oxygen,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"MC" = (
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"MG" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"MI" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"MQ" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible,
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 8;
-	name = "Air to Pure";
-	on = 1
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"MY" = (
-/obj/structure/chair/comfy/black{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ny" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"NA" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
-/turf/open/floor/plating,
-/area/ruin/powered/radiostation)
-"Oi" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"On" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Oo" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/glass{
-	amount = 20;
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/item/stack/sheet/metal/twenty{
-	pixel_x = -4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ou" = (
-/obj/machinery/vending/medical,
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"OE" = (
-/obj/structure/table/reinforced,
-/obj/item/folder{
-	pixel_x = -6
-	},
-/obj/item/radio/intercom/radiostation{
-	pixel_x = 29;
-	pixel_y = -4
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"Pb" = (
-/obj/machinery/space_heater,
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"Pd" = (
-/obj/structure/disposalpipe/junction{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 1
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Pf" = (
-/obj/machinery/door/airlock/centcom{
-	req_access_txt = "209"
-	},
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Pg" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Pz" = (
-/obj/structure/table/glass,
-/obj/structure/window/reinforced,
-/obj/item/tank/internals/anesthetic,
-/obj/item/clothing/mask/breath/medical,
-/obj/item/storage/backpack/duffelbag/med/surgery,
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 4
-	},
-/obj/item/storage/backpack/duffelbag/med/surgery,
-/obj/item/reagent_containers/glass/bottle/ethanol,
-/obj/item/reagent_containers/glass/bottle/ethanol,
-/obj/item/blood_filter,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
-"PB" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"PO" = (
-/obj/structure/chair/office{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"PY" = (
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Qa" = (
-/obj/structure/window/reinforced,
-/obj/machinery/space_heater,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Qb" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/ruin/powered/radiostation)
-"Qn" = (
-/obj/structure/chair/comfy,
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Qx" = (
-/obj/structure/disposalpipe/junction/flip{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"QO" = (
-/obj/machinery/door/window/brigdoor/eastleft{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"QP" = (
-/obj/machinery/conveyor{
-	id = "garbage"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"QY" = (
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"Rc" = (
-/obj/machinery/door/airlock/centcom,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ro" = (
-/obj/structure/table/wood/fancy/black,
-/obj/item/storage/fancy/donut_box,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"RA" = (
-/obj/machinery/door/airlock/centcom{
-	req_access_txt = "209"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"RC" = (
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 6
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"RE" = (
-/obj/structure/table/wood,
-/obj/item/paper/carbon,
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"RI" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"RV" = (
-/obj/structure/window/reinforced,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Sf" = (
-/obj/structure/disposalpipe/junction/flip{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ss" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Sx" = (
-/obj/machinery/recycler,
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "garbage"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"Sy" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"SE" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"SU" = (
-/obj/machinery/computer/telecomms/monitor{
-	dir = 1
-	},
-/turf/open/floor/engine,
-/area/ruin/powered/radiostation)
-"SV" = (
-/obj/machinery/door/window/brigdoor/eastleft{
-	name = "Access Desk";
-	req_access_txt = "209"
-	},
-/turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
-"SW" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
-	dir = 6
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Te" = (
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 10
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Tj" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "garbage"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"Ts" = (
-/obj/structure/chair/office{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"TQ" = (
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 5
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"TR" = (
-/obj/structure/chair/sofa/corner,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Ub" = (
-/obj/structure/chair/sofa/left{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"UH" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass/filled/cola{
-	pixel_x = -10;
-	pixel_y = 7
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/filled/cola{
-	pixel_x = 10;
-	pixel_y = 7
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/filled/cola{
-	pixel_y = 7
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"UR" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"UT" = (
-/obj/structure/chair/greyscale,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"UZ" = (
-/obj/machinery/computer/message_monitor{
-	dir = 8
-	},
-/obj/item/paper/monitorkey,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"Vi" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced,
-/turf/open/floor/plating/beach/sand,
-/area/ruin/powered/radiostation)
-"Vt" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"Wj" = (
-/obj/structure/filingcabinet/medical,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Wp" = (
+"ZB" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/regular{
 	pixel_x = 3;
@@ -2159,214 +2272,84 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"Wr" = (
-/obj/machinery/door/airlock/external,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Wt" = (
-/obj/machinery/telecomms/processor/preset_radiostation,
-/turf/open/floor/circuit/telecomms,
-/area/ruin/powered/radiostation)
-"Wz" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"WD" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"WG" = (
-/turf/open/floor/engine/telecomms,
-/area/ruin/powered/radiostation)
-"WO" = (
+"ZD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"WQ" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"WX" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"Xj" = (
-/obj/structure/table/reinforced,
-/obj/structure/displaycase/forsale/kitchen,
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"Xq" = (
-/obj/machinery/space_heater,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"XC" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"XE" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"Ym" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Yx" = (
-/turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
-"YB" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"YC" = (
-/obj/structure/table/wood/fancy/black,
-/obj/item/toy/plush/narplush,
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"YH" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/ruin/powered/radiostation)
-"Zb" = (
-/obj/structure/disposalpipe/segment{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/obj/machinery/computer/atmos_alert{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
-"Zd" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/rglass{
-	amount = 20;
-	pixel_x = -5;
-	pixel_y = 2
-	},
-/obj/item/stack/sheet/plasteel/twenty{
-	pixel_x = 5;
-	pixel_y = -3
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Zk" = (
-/obj/structure/disposalpipe/junction{
-	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Zt" = (
-/obj/structure/table/reinforced,
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"Zy" = (
-/obj/structure/table/wood,
-/obj/item/folder{
-	pixel_x = -6
-	},
-/obj/item/folder/blue{
-	pixel_x = -3
-	},
-/obj/item/folder/yellow,
-/obj/item/folder/red{
-	pixel_x = 3
-	},
-/obj/item/folder/white{
-	pixel_x = 6
-	},
-/turf/open/indestructible,
-/area/ruin/powered/radiostation)
-"ZB" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
-	dir = 9
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 9
+	dir = 10
 	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"ZD" = (
-/obj/machinery/suit_storage_unit/standard_unit,
 /turf/open/indestructible,
 /area/ruin/powered/radiostation)
 "ZH" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/ruin/powered/radiostation)
-"ZI" = (
-/obj/structure/chair/office{
+/obj/structure/table/glass,
+/obj/structure/window/reinforced,
+/obj/item/tank/internals/anesthetic,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
 	},
-/turf/open/indestructible,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/item/reagent_containers/glass/bottle/ethanol,
+/obj/item/reagent_containers/glass/bottle/ethanol,
+/obj/item/blood_filter,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"ZS" = (
+"ZI" = (
+/obj/structure/table/glass,
+/obj/item/storage/firstaid/regular{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/storage/firstaid/brute{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/brute{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/structure/window/reinforced,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
+/obj/machinery/door/window/eastleft{
+	dir = 1
+	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/open/floor/circuit/red/telecomms,
+/turf/open/floor/plasteel/white,
 /area/ruin/powered/radiostation)
-"ZX" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
-"ZY" = (
-/obj/structure/chair/comfy/black{
+"ZS" = (
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/engine,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/powered/radiostation)
+"ZX" = (
+/obj/machinery/vending/medical,
+/turf/open/floor/plasteel/white,
+/area/ruin/powered/radiostation)
+"ZY" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/open/indestructible,
 /area/ruin/powered/radiostation)
 
 (1,1,1) = {"
@@ -2377,41 +2360,20 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+jX
+jX
+jX
+jX
+jX
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
 yC
 yC
 yC
@@ -2428,42 +2390,21 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+jX
+jX
+jX
+jX
+jX
+jX
+vh
+Bh
+DC
+Gq
+DK
+QP
+RC
+Bh
+vh
 yC
 yC
 yC
@@ -2480,42 +2421,21 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+jX
+jX
+ps
+qX
+ps
+jX
+vh
+Cg
+DK
+DK
+DK
+DK
+DK
+Cg
+vh
 yC
 yC
 yC
@@ -2531,43 +2451,22 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+jX
+jX
+jX
+ps
+kr
+ps
+jX
+vh
+Cg
+DP
+Gs
+Kp
+Gs
+RI
+Cg
+vh
 yC
 yC
 yC
@@ -2583,43 +2482,22 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+vh
+vh
+vh
+vh
+qZ
+vh
+vh
+vh
+Cw
+DR
+DR
+DR
+DR
+DR
+TQ
+vh
 yC
 yC
 yC
@@ -2630,48 +2508,27 @@ yC
 yC
 "}
 (6,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+vh
+vh
+vh
+vh
+vh
+vh
+kr
+Fo
+pE
+rj
+sa
+wf
+vh
+CA
+DX
+DX
+DX
+DX
+DX
+TR
+vh
 yC
 yC
 yC
@@ -2682,48 +2539,27 @@ yC
 yC
 "}
 (7,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+vh
+an
+fj
+hV
+ja
+vh
+Fo
+Fo
+pR
+Fo
+Fo
+wl
+vh
+CE
+El
+vh
+KB
+vh
+El
+Ub
+vh
 yC
 yC
 yC
@@ -2734,48 +2570,27 @@ yC
 yC
 "}
 (8,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+vh
 iH
-iH
-iH
-iH
-iH
+fE
+ip
+ji
 vh
+dF
+lG
+pX
+rw
+su
+wr
 vh
+CG
+EF
 vh
+KK
 vh
+RV
+CG
 vh
-vh
-vh
-vh
-vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 yC
 yC
 yC
@@ -2786,1148 +2601,686 @@ yC
 yC
 "}
 (9,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-iH
-iH
-iH
-iH
-iH
-iH
 vh
+bY
+fE
 ga
 tx
-Wt
-yr
-Ff
-KJ
-ga
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+vh
+vh
+KJ
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+Le
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
 "}
 (10,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-iH
-iH
-dy
-Wr
-dy
-iH
 vh
+cM
+fE
 Yx
 WG
-WG
-WG
-WG
-WG
-Yx
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Fo
+Fo
+ZS
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+GN
+ks
+Fo
+Fo
+MI
+vh
 "}
 (11,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-iH
-iH
-iH
-dy
-IV
-dy
-iH
 vh
-Yx
+cP
+fK
+iu
 AK
-yw
-vs
+vh
+Fo
 yw
 KU
-Yx
+ry
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+ry
+RE
+RE
+RE
+RE
+RE
+Mk
+PZ
+JM
+lG
+xp
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 "}
 (12,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+vh
+dv
 vh
 vh
 vh
 vh
-DR
-vh
-vh
-vh
-SV
+Fo
 ZS
-ZS
-ZS
-ZS
-ZS
-fL
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+Zb
+Zb
+Vi
 "}
 (13,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-vh
-vh
-vh
-vh
-vh
-IV
-Fo
-El
-kW
-qU
-Mq
-vh
+ZS
+fL
 zm
 HM
-HM
-HM
-HM
-HM
-QO
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Fo
+lM
+qd
+QO
+sz
+QO
+QO
+CI
+Ff
+Gx
+Lu
+vh
+Sf
+UH
+WQ
+YH
+oK
+Zb
+uU
+vh
+Zb
+Vi
+Vi
 "}
 (14,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-ZH
-CE
-Mf
-JS
-vh
-Fo
-Fo
-be
-Fo
-Fo
+Vi
 ZD
-vh
+fT
 vZ
 ZY
 vh
-Cg
+Fo
+ZS
+Vi
+Fo
+Fo
+wx
+wx
+CL
+Fg
+Gy
+LW
 vh
-ZY
-SU
+Ss
+Fo
+Fo
+Fo
+Fo
+KE
+Za
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Vi
+Vi
 yC
 "}
 (15,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-Wz
-QY
-qX
-kr
-vh
-kx
-bf
-ps
-us
-ch
+Vi
 nb
-vh
+gi
 zZ
 OE
 vh
-CY
+Fo
+ZS
+Vi
+Fo
+sL
+Kn
+wK
+CN
+Fk
+HI
+Mf
 vh
-JK
-zZ
-vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Fo
+Vi
+Vi
 yC
 yC
 "}
 (16,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Vi
+dy
+gm
+iA
+jn
+kk
+RE
+lS
+Vi
+Fo
+sL
+wK
+yi
+wK
+Fk
+HI
+MG
 vh
-jX
-QY
-sa
-lE
-vh
-vh
-vh
-KS
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-FS
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Fo
+Fo
+Fo
+WX
+Zb
+Zb
+Fo
+Vi
 yC
 yC
 yC
 "}
 (17,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-Pb
-QY
-KK
-XE
+Vi
+dF
+gr
+Fo
+ZS
 vh
 Fo
+ZS
+Vi
 Fo
-za
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
+sL
+wK
+wK
 Kn
 Pg
-Fo
-Fo
-Xq
+Ia
+MI
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+pE
+sa
+WX
+Zb
+oK
+el
+Fo
+Vi
 yC
 yC
 yC
 "}
 (18,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-RC
-gS
-ZB
-ip
-vh
+Vi
+dO
+gL
 Fo
-pX
-mJ
-FZ
-oU
-oU
-oU
-oU
-oU
-oU
-oU
-FZ
-oU
-oU
-oU
-oU
-oU
+ZS
+vh
+ks
+ZS
+Vi
+Fo
+tb
+wM
+wM
 um
 pN
 au
 bf
 KC
-vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Sx
+UT
+Xj
+Zd
+md
+fZ
+Gy
+Vi
 yC
 yC
 yC
 "}
 (19,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-RA
+eJ
+gO
+iI
+ZS
 vh
-vh
-vh
-vh
+kx
+mn
+Vi
 Fo
-za
+iI
+Fo
+vZ
+CU
+Fp
+Fo
+MQ
 vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-pq
-pq
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+dy
+su
+WX
+Zb
+HZ
+Nh
+HI
+Vi
 yC
 yC
 yC
 "}
 (20,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-za
-UT
-ks
-Lu
 vh
-Fo
-Pd
-kk
-CZ
-wr
-CZ
-CZ
-On
+vh
+vh
 ff
-UH
+vh
 cF
+mJ
 vh
-jS
-lX
-iv
 Vi
-ze
-pq
-EO
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+On
 vh
-pq
-NA
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Sy
+Fo
+Fo
+WX
+Zb
+NZ
+HI
+Vi
 yC
 yC
 yC
 "}
 (21,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-NA
-yo
-Fg
-hh
-nY
 vh
-Fo
-za
-NA
-Fo
-Fo
 vA
-vA
+gS
 cT
 Qx
-tT
-CN
 vh
-pR
 Fo
-Fo
-Fo
-Fo
+ZS
+vh
+rF
+tr
+wQ
+Ho
 Ts
 Wj
+Ib
+Oo
 vh
-NA
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Mf
+Fo
+Fo
+Fo
+Fo
+Fo
+HI
+Vi
+Vi
 yC
 yC
 "}
 (22,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-NA
-wS
-tu
-FD
-Ym
 vh
-Fo
-za
-NA
-Fo
-CI
 zl
-aB
+yl
 Ro
 hO
-JR
-tg
+vh
+Fo
+ZS
+vh
+rS
+tu
+wS
+wS
+CY
+wS
+IW
+Ou
 vh
 Fo
 Fo
 Fo
 Fo
 Fo
-Fo
-Fo
-NA
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Ht
+Xb
+vh
+Vi
+Vi
 yC
 "}
 (23,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-NA
-Oi
-fT
-gO
-fE
-Pf
-oU
-Sf
-NA
-Fo
-CI
+vh
 aB
-lz
-aB
-hO
-JR
-tb
+yl
+yl
+jQ
 vh
 Fo
-Fo
-Fo
+ZS
+vh
+rT
+tR
 lU
 pq
-pq
-Fo
+CZ
+Fw
+Jq
+wb
 NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Fo
+Fo
+XE
+Zt
+oK
+aY
+uU
+vh
+Zb
+Vi
+Vi
 "}
 (24,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-NA
-kx
-MG
-Fo
-za
 vh
-Fo
-za
-NA
-Fo
-CI
 aB
-aB
-zl
+yl
+iQ
 Ha
-MI
-Xq
 vh
-El
-qU
-lU
-pq
-ze
-DC
 Fo
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+ZS
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+vh
+Zb
+Zb
+Vi
 "}
 (25,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-NA
-Fw
-rS
-Fo
-za
 vh
-Pg
-za
-NA
-Fo
-LW
-MY
 MY
 tS
+tS
 Dj
-YB
-lM
+vh
+Fo
 wy
 FJ
 FO
-Qn
-Bu
 RE
-PO
+RE
+RE
+RE
 tT
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+RE
+RE
+RE
+FO
+tT
+RE
+RE
+RE
+Kw
+RE
+Tg
+lG
+xp
+vh
 "}
 (26,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-TR
-Ub
-wf
-za
-vh
-xW
-Fp
-NA
-Fo
-wf
-Fo
-hh
+eS
+yl
 KI
 yl
-Fo
-oX
 vh
-Oi
-ch
-lU
-pq
-Zy
-KB
-JR
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+Fo
+Fo
+ZS
+Fo
+Fo
+Fo
+Fo
+Fo
+ZS
+Fo
+Fo
+Fo
+Fo
+ZS
+Fo
+Fo
+vZ
+tz
+su
+os
+Fo
+MI
+vh
 "}
 (27,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
 vh
 vh
 vh
-ry
+NA
 vh
-Le
-xv
 vh
-NA
-NA
-NA
-NA
-NA
-NA
-NA
-cM
 vh
-dW
-Fo
-Fo
-lU
-pq
-bY
-JR
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+KJ
+vh
+vh
+vh
+vh
+vh
+KJ
+vh
+vh
+vh
+vh
+KJ
+vh
+vh
+vh
+vh
+vh
+LZ
+vh
+vh
+vh
 "}
 (28,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-wQ
-Xj
-pE
-wK
-vh
-Fo
-za
-vh
-qd
-Cw
 wm
 Ho
-wl
-fj
-rw
-Vt
+Ho
+Ho
 vh
+Vt
+vZ
 tg
+lG
+uC
+xi
+yo
+Dg
+FD
+JO
+Pb
+vh
+SE
+UZ
+YB
+Zy
+vh
+mR
+rw
+nM
 Fo
-Fo
-Fo
-Fo
-Fo
-JR
-NA
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+wl
+vh
 "}
 (29,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-kU
-DK
-WX
-WO
-vh
-Fo
-za
-vh
-zV
-fK
 je
-je
+hR
 KO
-je
-yc
+jS
+vh
 Ny
+Fo
+qK
+Fo
+uF
+xv
+za
+Fo
+Fo
+JS
+Pd
 vh
-Fo
-Fo
-Fo
-Fo
-Fo
-ZI
-SE
+SU
+Wr
+YB
+ZB
 vh
-NA
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+kr
+Fo
+pR
+Fo
+wr
+vh
 "}
 (30,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-cP
-DK
-DK
-PB
 vh
-Fo
-za
 vh
-YC
-UZ
-DB
-xi
-rT
-HI
-Zb
+vh
+vh
+vh
 FH
-eS
 Fo
+qK
 Fo
 lC
 Ix
-ze
-iQ
-EO
+zV
+Fo
+Fo
+Fo
+Pf
 vh
-pq
-NA
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+SV
+Wt
+YB
+ZH
+vh
+vZ
+rj
+OE
+Fo
+wf
+vh
 "}
 (31,1,1) = {"
 yC
@@ -3935,51 +3288,30 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-cP
-DK
-mn
-Gq
-vh
-Fo
+kU
+mR
+qU
+lG
+vs
+xW
+AO
 za
+Fo
+Fo
+PB
+vh
+SW
+Wt
+YB
+ZI
 vh
 vh
 vh
+qX
 vh
 vh
 vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-pq
-pq
-NA
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 "}
 (32,1,1) = {"
 yC
@@ -3987,51 +3319,30 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-hR
-ZX
-ZX
-uF
-vh
-Fo
-Ss
-CU
-kY
-oU
-oU
-oU
-oU
-Zk
-oU
-oU
-oU
+lE
+nk
 kY
 Zk
-oU
-oU
-oU
-UR
-oU
+vx
+yc
 nj
-bf
-KC
+UR
+nj
+nj
+PY
+QY
+SW
+Wz
+YB
+ZX
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+jX
+Vi
+kr
+Vi
+jX
+jX
 "}
 (33,1,1) = {"
 yC
@@ -4039,51 +3350,30 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-dO
-DK
-Sy
-DK
 vh
-Fo
-Fo
-za
-Fo
-Fo
-Fo
-Fo
-Fo
-za
-Fo
-Fo
-Fo
-Fo
-za
-Fo
-Fo
-hh
+vh
+vh
+vh
+vX
+vh
+vh
 XC
-ch
-uL
-Fo
+Vi
+Vi
+Qa
 Xq
+SW
+WD
+YC
+bO
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+jX
+Vi
+qZ
+Vi
+bX
+jX
 "}
 (34,1,1) = {"
 yC
@@ -4092,49 +3382,28 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
 vh
-vh
-vh
-vh
-eS
-vh
-vh
-vh
+no
 Rc
-vh
-vh
-vh
-vh
-vh
 Rc
+wb
+yg
 vh
+Dw
+Ym
+Ym
+Qb
+Xq
+Te
+WO
+YB
+PD
 vh
-vh
-vh
-Rc
-vh
-vh
-vh
-vh
-vh
-ia
-vh
-vh
-vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+jX
+jX
+jX
+jX
+jX
 yC
 "}
 (35,1,1) = {"
@@ -4144,48 +3413,27 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
 vh
-yg
+nY
+Ho
 Ho
 Ho
 Ho
 vh
-Kp
-hh
-Dg
-bf
-sL
-SW
-IW
-Gy
-eJ
-RI
-Ib
+Ym
+Ym
+Ym
+Ym
+RA
+QY
 vh
-Fk
-gi
-MC
-qK
 vh
-pb
-us
-uH
-Fo
-ZD
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
+vh
+jX
+jX
+jX
+jX
 yC
 yC
 "}
@@ -4196,40 +3444,19 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
 vh
 om
-Bh
-wM
-iA
-vh
-PY
-Fo
-tr
-Fo
-Qa
-sz
-Ia
-Fo
-Fo
-Te
-TQ
-vh
-hV
+Ho
 FP
 MC
 Wp
 vh
-IV
-Fo
-be
-Fo
-nb
+Ym
+Ym
+Ym
+Ym
 vh
+Tj
 yC
 yC
 yC
@@ -4248,40 +3475,19 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
 vh
-vh
-vh
-vh
-vh
-vh
-jQ
-Fo
-tr
-Fo
-RV
-Dw
-gr
-Fo
-Fo
-Fo
-EF
-vh
+oX
 qu
-hy
-MC
+qu
+qu
 Pz
 vh
-hh
-kW
+DB
 Ym
-Fo
-Mq
+Ym
+DB
 vh
+yC
 yC
 yC
 yC
@@ -4300,663 +3506,18 @@ yC
 yC
 yC
 yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 vh
-gm
-pb
-su
-bf
-vx
-rj
-uC
-Ia
-Fo
-Fo
-Jq
 vh
-JO
-hy
-MC
+vh
+vh
+vh
 cY
 vh
 vh
 vh
-Wr
 vh
 vh
 vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(39,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-vX
-Oo
-Zd
-Zt
-qZ
-iu
-CL
-ji
-CL
-CL
-MQ
-DX
-JO
-wx
-MC
-Ou
-vh
-iH
-NA
-IV
-NA
-iH
-iH
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(40,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-vh
-vh
-vh
-vh
-lG
-vh
-vh
-Qb
-NA
-NA
-rF
-dv
-JO
-iI
-dF
-gL
-vh
-iH
-NA
-DR
-NA
-DP
-iH
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(41,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-an
-WD
-WD
-FH
-yi
-vh
-CA
-tR
-tR
-Gx
-dv
-lS
-Gs
-MC
-nk
-vh
-iH
-iH
-iH
-iH
-iH
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(42,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-Tj
-Ho
-Ho
-Ho
-Ho
-vh
-tR
-tR
-tR
-tR
-wb
-DX
-vh
-vh
-vh
-vh
-iH
-iH
-iH
-iH
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(43,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-Sx
-Ho
-AO
-WQ
-no
-vh
-tR
-tR
-tR
-tR
-vh
-YH
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(44,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-ja
-QP
-QP
-QP
-mR
-vh
-CG
-tR
-tR
-CG
-vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(45,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-vh
-vh
-vh
-vh
-vh
-jn
-vh
-vh
-vh
-vh
-vh
-vh
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(46,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(47,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(48,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(49,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-"}
-(50,1,1) = {"
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
-yC
 yC
 yC
 yC

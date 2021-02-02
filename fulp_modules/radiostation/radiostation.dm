@@ -18,9 +18,9 @@
 	autolinkers = list("processor", "Radiostation")
 
 /obj/machinery/telecomms/hub/preset/radiostation
-	id = "Hub"
+	id = "Rhub"
 	network = "radiostation"
-	autolinkers = list("hub", "Rs_relay", "receiver", "broadcaster", "Radiostation", "allinone", "server", "Radiostation")
+	autolinkers = list("Rhub", "Rs_relay", "receiver", "broadcaster", "Radiostation", "allinone", "server", "Radiostation")
 
 /obj/machinery/telecomms/processor/preset_radiostation
 	id = "Processor"
@@ -35,14 +35,24 @@
 
 /obj/machinery/telecomms/relay/preset/radiostation
 	id = "Rs_relay"
-	network = "radiostation"
-	autolinkers = list("Rs_relay", "Reciever")
+	network = "tcommsat"
+	autolinkers = list("Rs_relay", "Reciever", "Hub")
 
 /obj/machinery/telecomms/server/presets/radiostation
 	id = "Server"
 	network = "radiostation"
 	freq_listening = list(FREQ_RADIO_STATION)
 	autolinkers = list("Radiostation")
+
+/obj/machinery/telecomms/hub/preset/Initialize()
+	autolinkers += list("Rs_realy")
+	.=..()
+
+/obj/machinery/telecomms/relay/preset/station/Initialize()
+	id = "s_relay"
+	network = "radiostation"
+	autolinkers += list("Hub", "Reciever")
+	.=..()
 
 //other objects, starting with the radio host's id
 
