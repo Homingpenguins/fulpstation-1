@@ -121,10 +121,10 @@ export const RADIO_CHANNELS = [
     color: '#1ecc43',
   },
   {
-    name: 'Radio Station'
-    freq: 1339
-    color: '#db2659'
-  }
+    name: 'Radio Station',
+    freq: 1339,
+    color: '#db2659',
+  },
 ];
 
 const GASES = [

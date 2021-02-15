@@ -59,6 +59,7 @@
 		if(freq == 1339)
 			return TRUE
 	return FALSE
+	..()
 
 //other objects, starting with the radio host's id
 
