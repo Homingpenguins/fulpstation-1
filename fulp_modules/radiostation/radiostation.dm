@@ -54,14 +54,18 @@
 	autolinkers += list("Hub", "Reciever")
 	.=..()
 
+/obj/item/radio/can_receive(freq, level)
+	if(FREQ_LISTENING)
+		if(freq == 1339)
+			return TRUE
+	return FALSE
+
 //other objects, starting with the radio host's id
 
 /obj/item/card/id/radiohost
 	name = "Radio Host"
 	assignment = "Radio Host"
 	access = list(ACCESS_AWAY_RADIOSTATION, ACCESS_MAINT_TUNNELS)
-
-//A radio and intercomm for the radio host
 
 /obj/item/radio/intercom/radiostation
 	name = "Radiostation intercom"
