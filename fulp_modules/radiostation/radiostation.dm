@@ -20,7 +20,7 @@
 /obj/machinery/telecomms/hub/preset/radiostation
 	id = "Rhub"
 	network = "radiostation"
-	autolinkers = list("Rhub", "Rs_relay", "receiver", "broadcaster", "Radiostation", "allinone", "server", "Radiostation")
+	autolinkers = list("Rhub", "Rs_relay", "receiver", "broadcaster", "Radiostation", "server", "Radiostation")
 
 /obj/machinery/telecomms/processor/preset_radiostation
 	id = "Processor"
@@ -51,15 +51,16 @@
 /obj/machinery/telecomms/relay/preset/station/Initialize()
 	id = "s_relay"
 	network = "radiostation"
-	autolinkers += list("Hub", "Reciever")
+	autolinkers += list("Reciever", "Rhub")
 	.=..()
 
+/*
 /obj/item/radio/can_receive(freq, level)
-	if(FREQ_LISTENING)
-		if(freq == 1339)
-			return TRUE
+	if(freq == 1339)
+		return TRUE
 	return FALSE
 	..()
+*/
 
 //other objects, starting with the radio host's id
 
@@ -92,8 +93,29 @@
 
 //Area stuff
 
-area/ruin/powered/radiostation
-	icon_state = "blue"
+area/ruin/space/has_grav/radiostation/halls
+	name = "Radiostation Halls"
+	icon_state = "hallC"
+
+area/ruin/space/has_grav/radiostation/tcomms
+	name = "Radiostation Tcomms"
+	icon_state = "tcom"
+
+area/ruin/space/has_grav/radiostation/southern
+	name = "Radiostation Recording Room"
+	icon_state = "DJ"
+
+area/ruin/space/has_grav/radiostation/northern
+	name = "Radiostation Personal Rooms"
+	icon_state = "dorms"
+
+area/ruin/space/has_grav/radiostation/engine
+	name = "Radiostation Eastern Wing"
+	icon_state = "engine"
+
+area/ruin/space/has_grav/radiostation/eva
+	name = "Radiostation EVA"
+	icon_state = "eva"
 
 //Datum stuff
 

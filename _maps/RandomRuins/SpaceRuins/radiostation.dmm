@@ -6,7 +6,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "au" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -18,7 +18,7 @@
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "aB" = (
 /obj/machinery/microwave{
 	desc = "Cooks and boils stuff, somehow.";
@@ -27,12 +27,12 @@
 	},
 /obj/structure/table/reinforced,
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "aY" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "bf" = (
 /obj/structure/disposalpipe/junction{
 	dir = 1
@@ -44,35 +44,57 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "bO" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "bX" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "bY" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_y = 2
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"cb" = (
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/southern)
+"cd" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/eva)
+"ch" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/northern)
+"cj" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/engineering)
+"cq" = (
+/turf/closed/indestructible/riveted,
+/area/ruin/space/has_grav/radiostation/engineering)
 "cF" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "cM" = (
 /obj/machinery/space_heater,
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "cP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -84,13 +106,13 @@
 	dir = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "cT" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "cY" = (
 /obj/machinery/door/poddoor/massdriver_trash,
 /obj/structure/fans/tiny,
@@ -98,7 +120,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"df" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/radiostation/eva)
 "dv" = (
 /obj/machinery/door/airlock/centcom{
 	req_access_txt = "209"
@@ -113,22 +139,22 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "dy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "dF" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "dO" = (
 /obj/structure/chair/sofa/right,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "el" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/coffee{
@@ -141,15 +167,15 @@
 	pixel_y = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "eJ" = (
 /obj/structure/chair/sofa/corner,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "eS" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "ff" = (
 /obj/machinery/door/airlock/centcom{
 	req_access_txt = "209"
@@ -164,26 +190,30 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "fj" = (
 /obj/structure/chair/office{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "fE" = (
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "fK" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "fL" = (
 /obj/structure/chair/greyscale,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"fN" = (
+/obj/machinery/space_heater,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/southern)
 "fT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 5
@@ -192,14 +222,14 @@
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "fZ" = (
 /obj/structure/chair/office{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "ga" = (
 /obj/machinery/holopad,
 /obj/structure/disposalpipe/segment{
@@ -209,7 +239,13 @@
 	dir = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"gd" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/northern)
 "gi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -221,7 +257,7 @@
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "gm" = (
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 2
@@ -230,13 +266,17 @@
 	dir = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "gr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"gA" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/radiostation/southern)
 "gL" = (
 /obj/structure/table/glass,
 /obj/machinery/button/door{
@@ -245,18 +285,22 @@
 	pixel_y = -3
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "gO" = (
 /obj/structure/chair/sofa/left{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "gS" = (
 /obj/structure/table/reinforced,
 /obj/structure/displaycase/forsale/kitchen,
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"hF" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/radiostation/engineering)
 "hO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -268,7 +312,7 @@
 	dir = 8
 	},
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "hR" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/food/condiment/soysauce{
@@ -280,20 +324,20 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "hV" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "ip" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "iu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -305,7 +349,13 @@
 	dir = 9
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"iz" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/radiostation/engineering)
 "iA" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
@@ -315,22 +365,34 @@
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "iH" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "iI" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "iQ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"iR" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/northern)
 "ja" = (
 /obj/machinery/button/door{
 	name = "Radio Station Quarantine";
@@ -340,17 +402,17 @@
 /obj/structure/table/wood,
 /obj/machinery/light,
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "je" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "ji" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "jn" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 2
@@ -362,7 +424,10 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"jo" = (
+/turf/closed/indestructible/riveted,
+/area/ruin/space/has_grav/radiostation/southern)
 "jQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -371,7 +436,7 @@
 	dir = 8
 	},
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "jS" = (
 /obj/item/storage/box/donkpockets{
 	pixel_x = -2;
@@ -388,11 +453,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "jX" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "kk" = (
 /obj/machinery/door/airlock/centcom{
 	req_access_txt = "209"
@@ -401,19 +466,19 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "kr" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "ks" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "kx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 10
@@ -422,12 +487,12 @@
 	dir = 6
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "kU" = (
 /obj/item/storage/toolbox/electrical,
 /obj/structure/table/reinforced,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "kY" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/rglass{
@@ -440,21 +505,21 @@
 	pixel_y = -3
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "lC" = (
 /obj/structure/window/reinforced,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "lE" = (
 /obj/structure/rack,
 /obj/item/tank/internals/emergency_oxygen/engi,
 /obj/item/stack/cable_coil,
 /turf/open/floor/plasteel,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "lG" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "lM" = (
 /obj/structure/disposalpipe/junction{
 	dir = 4
@@ -466,7 +531,7 @@
 	dir = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "lS" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 4
@@ -474,18 +539,18 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "lU" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/security/wooden_tv,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "md" = (
 /obj/structure/table/wood,
 /obj/item/paper/carbon,
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "mn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -493,7 +558,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "mJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -506,11 +571,11 @@
 	},
 /obj/machinery/light,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "mR" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "nb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -519,11 +584,11 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "nj" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "nk" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/glass{
@@ -535,7 +600,7 @@
 	pixel_x = -4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "no" = (
 /obj/structure/disposaloutlet{
 	dir = 4
@@ -545,7 +610,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "nM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 9
@@ -554,14 +619,14 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "nY" = (
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "garbage"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "om" = (
 /obj/machinery/recycler,
 /obj/machinery/conveyor{
@@ -569,7 +634,13 @@
 	id = "garbage"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"or" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/southern)
 "os" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
@@ -578,19 +649,30 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "oK" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
+"oQ" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/northern)
+"oW" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/northern)
 "oX" = (
 /obj/machinery/conveyor{
 	dir = 6;
 	id = "garbage"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "pq" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
@@ -598,17 +680,17 @@
 	pixel_x = 30
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "ps" = (
 /obj/effect/spawner/structure/window/reinforced/indestructable,
 /turf/open/space/basic,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "pE" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "pN" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 9
@@ -617,13 +699,13 @@
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "pR" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "pX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -635,19 +717,19 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "qd" = (
 /obj/machinery/door/airlock/centcom,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "qu" = (
 /obj/machinery/conveyor{
 	id = "garbage"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "qK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -656,7 +738,7 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "qU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -665,29 +747,29 @@
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "qX" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "qZ" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "rj" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "rw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "ry" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -696,33 +778,33 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "rF" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/toy/plush/slimeplushie,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "rS" = (
 /obj/machinery/computer/camera_advanced,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "rT" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/toy/plush/narplush,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "sa" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "su" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "sz" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
@@ -731,15 +813,15 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "sL" = (
 /obj/structure/chair/comfy/black,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "tb" = (
 /obj/machinery/holopad,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "tg" = (
 /obj/structure/disposalpipe/junction{
 	dir = 4
@@ -751,26 +833,26 @@
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "tr" = (
 /obj/machinery/computer/med_data/syndie{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "tu" = (
 /obj/structure/chair/comfy{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "tx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 9
 	},
 /obj/effect/mob_spawn/human/Radiohost,
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "tz" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 10
@@ -779,7 +861,7 @@
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "tR" = (
 /obj/machinery/computer/message_monitor{
 	dir = 8
@@ -789,11 +871,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "tS" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "tT" = (
 /obj/structure/disposalpipe/junction{
 	dir = 1
@@ -805,7 +887,7 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "um" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -817,7 +899,11 @@
 	dir = 6
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
+"ur" = (
+/obj/structure/table/wood,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/southern)
 "uC" = (
 /obj/structure/window/reinforced,
 /obj/machinery/disposal/bin,
@@ -828,35 +914,44 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "uF" = (
 /obj/structure/window/reinforced,
 /obj/machinery/space_heater,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"uN" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/eva)
 "uU" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
 /obj/item/pen/fountain,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "vh" = (
 /turf/closed/indestructible/riveted,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "vs" = (
 /obj/structure/window/reinforced,
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "vx" = (
 /obj/structure/window/reinforced,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"vz" = (
+/turf/closed/indestructible/riveted,
+/area/ruin/space/has_grav/radiostation/eva)
 "vA" = (
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder{
@@ -864,50 +959,50 @@
 	pixel_y = 5
 	},
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "vX" = (
 /obj/machinery/door/airlock/centcom,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "vZ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "wb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "wf" = (
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "wl" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "wm" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "wr" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /obj/machinery/light,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "wx" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "wy" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -919,29 +1014,29 @@
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "wK" = (
 /obj/structure/table/wood/fancy/black,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "wM" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "wQ" = (
 /obj/machinery/computer/warrant{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "wS" = (
 /obj/structure/chair/comfy{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "xi" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -953,14 +1048,14 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "xp" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "xv" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -969,7 +1064,7 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "xW" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -978,7 +1073,7 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "yc" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -987,23 +1082,23 @@
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "yg" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "yi" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/radio/intercom/radiostation,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "yl" = (
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "yo" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "yw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -1015,7 +1110,7 @@
 	dir = 6
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "yC" = (
 /turf/open/space/basic,
 /area/space)
@@ -1024,11 +1119,11 @@
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "zl" = (
 /obj/structure/table/reinforced,
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "zm" = (
 /obj/structure/table/greyscale,
 /obj/item/storage/fancy/donut_box,
@@ -1036,13 +1131,13 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "zV" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "zZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 5
@@ -1051,44 +1146,44 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "AK" = (
 /obj/structure/bed,
 /obj/item/bedsheet/cosmos,
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "AO" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Bh" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "Cg" = (
 /turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "Cw" = (
 /obj/machinery/door/window/brigdoor/eastleft{
 	name = "Access Desk";
 	req_access_txt = "209"
 	},
 /turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "CA" = (
 /obj/machinery/door/window/brigdoor/eastright{
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "CE" = (
 /obj/machinery/computer/telecomms/server,
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "CG" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -1097,7 +1192,7 @@
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "CI" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -1109,7 +1204,7 @@
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "CL" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -1124,12 +1219,12 @@
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "CN" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/storage/fancy/donut_box,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "CU" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 9
@@ -1138,7 +1233,7 @@
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "CY" = (
 /obj/structure/chair/comfy{
 	dir = 8
@@ -1147,7 +1242,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "CZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1
@@ -1168,56 +1263,62 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Dg" = (
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Dj" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"Dk" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/eva)
 "Dw" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/air_input{
 	dir = 8
 	},
 /turf/open/floor/engine/air,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "DB" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/engine/air,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "DC" = (
 /obj/machinery/telecomms/bus/preset_radiostation,
 /turf/open/floor/circuit/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "DK" = (
 /turf/open/floor/engine/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "DP" = (
 /obj/machinery/telecomms/receiver/preset_radiostation,
 /turf/open/floor/circuit/green/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "DR" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "DX" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "El" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "EF" = (
 /obj/structure/table/reinforced,
 /obj/item/folder{
@@ -1228,14 +1329,14 @@
 	pixel_y = -4
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "Ff" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Fg" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 1
@@ -1247,7 +1348,7 @@
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Fk" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
@@ -1259,10 +1360,10 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Fo" = (
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Fp" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -1271,7 +1372,7 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Fw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1
@@ -1280,7 +1381,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "FD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -1292,7 +1393,7 @@
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "FH" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical,
@@ -1301,7 +1402,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "FJ" = (
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 4
@@ -1313,7 +1414,7 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "FO" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -1322,7 +1423,7 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "FP" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -1333,14 +1434,17 @@
 	name = "disposal conveyor"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Gq" = (
 /obj/machinery/telecomms/processor/preset_radiostation,
 /turf/open/floor/circuit/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "Gs" = (
 /turf/open/floor/circuit/green/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
+"Gu" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/radiostation/northern)
 "Gx" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass/filled/cola{
@@ -1358,19 +1462,19 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Gy" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "GN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Ha" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1379,29 +1483,33 @@
 	dir = 9
 	},
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
+"Hf" = (
+/obj/effect/spawner/structure/window/reinforced/indestructable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/radiostation/northern)
 "Ho" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Ht" = (
 /obj/structure/chair/office{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "HI" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "HM" = (
 /obj/machinery/washing_machine,
 /obj/structure/window/spawner{
 	dir = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "HZ" = (
 /obj/structure/table/wood,
 /obj/item/folder{
@@ -1418,7 +1526,7 @@
 	pixel_x = 6
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Ia" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1430,7 +1538,7 @@
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Ib" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
@@ -1440,7 +1548,10 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
+"Ik" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/radiostation/engineering)
 "Ix" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1449,14 +1560,17 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "IW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
+"Jo" = (
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/northern)
 "Jq" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1
@@ -1471,37 +1585,40 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
+"Jy" = (
+/turf/closed/indestructible/riveted,
+/area/ruin/space/has_grav/radiostation/northern)
 "JM" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "JO" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "JS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Kn" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/paper_bin,
 /obj/item/pen/fountain,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Kp" = (
 /obj/machinery/telecomms/relay/preset/radiostation,
 /turf/open/floor/engine/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "Kw" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
@@ -1511,33 +1628,33 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "KB" = (
 /obj/machinery/door/airlock/centcom,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "KC" = (
 /obj/machinery/door/airlock/centcom,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "KE" = (
 /obj/structure/chair/office{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "KI" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "KJ" = (
 /obj/machinery/door/airlock/centcom,
 /obj/structure/disposalpipe/segment{
@@ -1550,13 +1667,13 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "KK" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "KO" = (
 /obj/structure/rack,
 /obj/item/storage/box/ingredients/wildcard{
@@ -1566,7 +1683,7 @@
 /obj/item/kitchen/knife,
 /obj/item/kitchen/rollingpin,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "KU" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 1
@@ -1578,14 +1695,14 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Le" = (
 /obj/machinery/door/airlock/centcom,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Lu" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass/filled/nuka_cola{
@@ -1607,11 +1724,11 @@
 	pixel_y = 19
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "LW" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "LZ" = (
 /obj/machinery/door/airlock/centcom,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
@@ -1621,11 +1738,11 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Mf" = (
 /obj/machinery/vending/coffee,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Mk" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -1633,22 +1750,22 @@
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "MC" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "MG" = (
 /obj/machinery/vending/boozeomat/all_access,
 /obj/machinery/light,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "MI" = (
 /obj/machinery/space_heater,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "MQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1660,12 +1777,12 @@
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "MY" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "Nh" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -1675,20 +1792,27 @@
 	pixel_x = 6
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Ny" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "NA" = (
 /obj/machinery/door/airlock/centcom,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
+"NN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/northern)
+"NR" = (
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/engineering)
 "NZ" = (
 /obj/structure/table/wood,
 /obj/item/radio/intercom/radiostation,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "On" = (
 /obj/machinery/door/airlock/centcom,
 /obj/structure/disposalpipe/segment{
@@ -1701,7 +1825,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Oo" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1713,19 +1837,19 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Ou" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "OE" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/eva)
 "Pb" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -1735,20 +1859,20 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Pd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Pf" = (
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /obj/machinery/light,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Pg" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
@@ -1760,19 +1884,22 @@
 	dir = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
+"Pl" = (
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/eva)
 "Pz" = (
 /obj/machinery/mass_driver/trash{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "PB" = (
 /obj/machinery/atmospherics/pipe/simple/supply/visible{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "PD" = (
 /obj/structure/closet/secure_closet/medical3,
 /obj/item/screwdriver{
@@ -1783,7 +1910,7 @@
 	},
 /obj/item/clothing/neck/stethoscope,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "PY" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/machinery/atmospherics/components/binary/pump{
@@ -1792,27 +1919,31 @@
 	on = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "PZ" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 9
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Qa" = (
 /obj/effect/spawner/structure/window/reinforced/indestructable,
 /obj/machinery/atmospherics/pipe/simple/supply/visible{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Qb" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/atmos/air_output{
 	dir = 8
 	},
 /turf/open/floor/engine/air,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"Ql" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/halls)
 "Qx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1824,51 +1955,51 @@
 	dir = 8
 	},
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "QO" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "QP" = (
 /obj/machinery/telecomms/server/presets/radiostation,
 /turf/open/floor/circuit/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "QY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
 	},
 /turf/closed/indestructible/riveted,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Rc" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Ro" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/indestructible/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "RA" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
 /turf/closed/indestructible/riveted,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "RC" = (
 /obj/machinery/telecomms/hub/preset/radiostation,
 /turf/open/floor/circuit/telecomms,
-/area/space)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "RE" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "RI" = (
 /obj/machinery/telecomms/broadcaster/preset_radiostation,
 /turf/open/floor/circuit/green/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "RV" = (
 /obj/structure/table/reinforced,
 /obj/item/folder{
@@ -1878,7 +2009,7 @@
 	pixel_x = 29
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "Sf" = (
 /mob/living/simple_animal/pet/penguin/emperor{
 	name = "Molly"
@@ -1893,7 +2024,7 @@
 	dir = 8
 	},
 /turf/open/floor/grass/snow/safe,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Ss" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1902,7 +2033,7 @@
 	dir = 4
 	},
 /turf/open/floor/grass/snow/safe,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Sx" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -1912,36 +2043,40 @@
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Sy" = (
 /obj/effect/spawner/randomsnackvend,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "SE" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"SG" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/engineering)
 "SU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "SV" = (
 /obj/machinery/stasis,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "SW" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Te" = (
 /obj/machinery/stasis,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Tg" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 5
@@ -1954,45 +2089,45 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Tj" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste{
 	dir = 8
 	},
 /turf/open/space/basic,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Ts" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "TQ" = (
 /obj/machinery/door/window/brigdoor/eastright{
 	req_access_txt = "209"
 	},
 /turf/open/floor/circuit/red/telecomms,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "TR" = (
 /obj/machinery/door/window/brigdoor/eastleft{
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "Ub" = (
 /obj/machinery/computer/telecomms/monitor{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/tcomms)
 "UH" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/grass/snow/safe,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "UR" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/machinery/atmospherics/components/binary/pump{
@@ -2001,12 +2136,12 @@
 	on = 1
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "UT" = (
 /obj/machinery/holopad,
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "UZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2018,25 +2153,25 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Vi" = (
 /obj/effect/spawner/structure/window/reinforced/indestructable,
 /turf/open/floor/plating,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Vt" = (
 /obj/structure/reagent_dispensers/fueltank/large,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Wj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/machinery/computer/camera_advanced{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Wp" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -2054,7 +2189,7 @@
 	pixel_y = -7
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Wr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2066,7 +2201,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Wt" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2075,7 +2210,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "Wz" = (
 /obj/structure/chair/office/light{
 	dir = 1
@@ -2087,7 +2222,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "WD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -2096,19 +2231,22 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "WG" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "WO" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"WP" = (
+/turf/closed/indestructible/riveted,
+/area/ruin/space/has_grav/radiostation/tcomms)
 "WQ" = (
 /mob/living/simple_animal/crab/coffee,
 /obj/structure/bed/dogbed{
@@ -2124,46 +2262,54 @@
 	dir = 8
 	},
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "WX" = (
 /obj/structure/chair/comfy,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Xb" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Xj" = (
 /obj/structure/chair/comfy,
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Xq" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/closed/indestructible/riveted,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "XC" = (
 /obj/effect/spawner/structure/window/reinforced/indestructable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "XE" = (
 /obj/machinery/space_heater,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Ym" = (
 /turf/open/floor/engine/air,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"Yq" = (
+/obj/machinery/door/airlock/centcom,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/radiostation/northern)
+"Yu" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/southern)
 "Yx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2175,42 +2321,50 @@
 	dir = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "YB" = (
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "YC" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "YH" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Za" = (
 /obj/structure/filingcabinet/medical,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Zb" = (
 /obj/structure/table/wood,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "Zd" = (
 /obj/structure/table/wood,
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
 "Zk" = (
 /obj/structure/table/reinforced,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
+"Zp" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/engineering)
 "Zt" = (
 /obj/machinery/photocopier,
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/southern)
+"Zu" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible,
+/area/ruin/space/has_grav/radiostation/eva)
 "Zy" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/bodybags{
@@ -2247,7 +2401,7 @@
 	pixel_y = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "ZB" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/regular{
@@ -2271,7 +2425,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "ZD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2283,7 +2437,7 @@
 	dir = 10
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 "ZH" = (
 /obj/structure/table/glass,
 /obj/structure/window/reinforced,
@@ -2301,7 +2455,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "ZI" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/regular{
@@ -2328,7 +2482,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "ZS" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2340,17 +2494,17 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/halls)
 "ZX" = (
 /obj/machinery/vending/medical,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/engineering)
 "ZY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/ruin/powered/radiostation)
+/area/ruin/space/has_grav/radiostation/northern)
 
 (1,1,1) = {"
 yC
@@ -2365,15 +2519,15 @@ jX
 jX
 jX
 jX
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
+WP
 yC
 yC
 yC
@@ -2396,7 +2550,7 @@ jX
 jX
 jX
 jX
-vh
+WP
 Bh
 DC
 Gq
@@ -2404,7 +2558,7 @@ DK
 QP
 RC
 Bh
-vh
+WP
 yC
 yC
 yC
@@ -2427,7 +2581,7 @@ ps
 qX
 ps
 jX
-vh
+WP
 Cg
 DK
 DK
@@ -2435,7 +2589,7 @@ DK
 DK
 DK
 Cg
-vh
+WP
 yC
 yC
 yC
@@ -2458,7 +2612,7 @@ ps
 kr
 ps
 jX
-vh
+WP
 Cg
 DP
 Gs
@@ -2466,7 +2620,7 @@ Kp
 Gs
 RI
 Cg
-vh
+WP
 yC
 yC
 yC
@@ -2482,14 +2636,14 @@ yC
 yC
 yC
 yC
-vh
-vh
-vh
-vh
+vz
+vz
+vz
+vz
 qZ
-vh
-vh
-vh
+vz
+vz
+WP
 Cw
 DR
 DR
@@ -2497,7 +2651,7 @@ DR
 DR
 DR
 TQ
-vh
+WP
 yC
 yC
 yC
@@ -2508,19 +2662,19 @@ yC
 yC
 "}
 (6,1,1) = {"
-vh
-vh
-vh
-vh
-vh
-vh
+Jy
+Jy
+Jy
+Jy
+Jy
+vz
 kr
-Fo
-pE
+Pl
+uN
 rj
-sa
+Dk
 wf
-vh
+WP
 CA
 DX
 DX
@@ -2528,7 +2682,7 @@ DX
 DX
 DX
 TR
-vh
+WP
 yC
 yC
 yC
@@ -2539,27 +2693,27 @@ yC
 yC
 "}
 (7,1,1) = {"
-vh
+Jy
 an
 fj
 hV
 ja
-vh
-Fo
-Fo
+vz
+Pl
+Pl
 pR
-Fo
-Fo
+Pl
+Pl
 wl
-vh
+WP
 CE
 El
-vh
+WP
 KB
-vh
+WP
 El
 Ub
-vh
+WP
 yC
 yC
 yC
@@ -2570,27 +2724,27 @@ yC
 yC
 "}
 (8,1,1) = {"
-vh
+Jy
 iH
 fE
 ip
 ji
-vh
+vz
 dF
-lG
+Zu
 pX
 rw
-su
+cd
 wr
-vh
+WP
 CG
 EF
-vh
+WP
 KK
-vh
+WP
 RV
 CG
-vh
+WP
 yC
 yC
 yC
@@ -2601,7 +2755,7 @@ yC
 yC
 "}
 (9,1,1) = {"
-vh
+Jy
 bY
 fE
 ga
@@ -2632,7 +2786,7 @@ vh
 vh
 "}
 (10,1,1) = {"
-vh
+Jy
 cM
 fE
 Yx
@@ -2663,7 +2817,7 @@ MI
 vh
 "}
 (11,1,1) = {"
-vh
+Jy
 cP
 fK
 iu
@@ -2694,39 +2848,39 @@ xp
 vh
 "}
 (12,1,1) = {"
-vh
+Jy
 dv
-vh
-vh
-vh
+Jy
+Jy
+Jy
 vh
 Fo
 ZS
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
 Zb
 Zb
 Vi
 "}
 (13,1,1) = {"
-vh
-ZS
+Jy
+iR
 fL
 zm
 HM
@@ -2742,61 +2896,61 @@ CI
 Ff
 Gx
 Lu
-vh
+jo
 Sf
 UH
 WQ
 YH
 oK
-Zb
+ur
 uU
-vh
+jo
 Zb
 Vi
 Vi
 "}
 (14,1,1) = {"
-Vi
+Hf
 ZD
 fT
-vZ
+NN
 ZY
 vh
 Fo
 ZS
-Vi
-Fo
-Fo
+gA
+cb
+cb
 wx
 wx
 CL
 Fg
 Gy
 LW
-vh
+jo
 Ss
-Fo
-Fo
-Fo
-Fo
+cb
+cb
+cb
+cb
 KE
 Za
-vh
+jo
 Vi
 Vi
 yC
 "}
 (15,1,1) = {"
-Vi
+Hf
 nb
 gi
 zZ
-OE
+gd
 vh
 Fo
 ZS
-Vi
-Fo
+gA
+cb
 sL
 Kn
 wK
@@ -2804,30 +2958,30 @@ CN
 Fk
 HI
 Mf
-vh
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Fo
-Vi
+jo
+cb
+cb
+cb
+cb
+cb
+cb
+cb
+gA
 Vi
 yC
 yC
 "}
 (16,1,1) = {"
-Vi
-dy
+Hf
+ch
 gm
 iA
 jn
 kk
 RE
 lS
-Vi
-Fo
+gA
+cb
 sL
 wK
 yi
@@ -2835,61 +2989,61 @@ wK
 Fk
 HI
 MG
-vh
-Fo
-Fo
-Fo
+jo
+cb
+cb
+cb
 WX
-Zb
-Zb
-Fo
-Vi
+ur
+ur
+cb
+gA
 yC
 yC
 yC
 "}
 (17,1,1) = {"
-Vi
-dF
+Hf
+oQ
 gr
-Fo
-ZS
+Jo
+iR
 vh
 Fo
 ZS
-Vi
-Fo
+gA
+cb
 sL
 wK
 wK
 Kn
 Pg
 Ia
-MI
-vh
+fN
+jo
 pE
 sa
 WX
-Zb
+ur
 oK
 el
-Fo
-Vi
+cb
+gA
 yC
 yC
 yC
 "}
 (18,1,1) = {"
-Vi
+Hf
 dO
 gL
-Fo
-ZS
+Jo
+iR
 vh
 ks
 ZS
-Vi
-Fo
+gA
+cb
 tb
 wM
 wM
@@ -2905,75 +3059,75 @@ Zd
 md
 fZ
 Gy
-Vi
+gA
 yC
 yC
 yC
 "}
 (19,1,1) = {"
-vh
+Jy
 eJ
 gO
-iI
-ZS
+oW
+iR
 vh
 kx
 mn
-Vi
-Fo
+gA
+cb
 iI
-Fo
-vZ
+cb
+Yu
 CU
 Fp
-Fo
+cb
 MQ
-vh
+jo
 dy
-su
+or
 WX
-Zb
+ur
 HZ
 Nh
 HI
-Vi
+gA
 yC
 yC
 yC
 "}
 (20,1,1) = {"
-vh
-vh
-vh
-vh
+Jy
+Jy
+Jy
+Jy
 ff
 vh
 cF
 mJ
-vh
-Vi
-Vi
-Vi
-Vi
-Vi
-Vi
-Vi
+jo
+gA
+gA
+gA
+gA
+gA
+gA
+gA
 On
-vh
+jo
 Sy
-Fo
-Fo
+cb
+cb
 WX
-Zb
+ur
 NZ
 HI
-Vi
+gA
 yC
 yC
 yC
 "}
 (21,1,1) = {"
-vh
+Jy
 vA
 gS
 cT
@@ -2981,7 +3135,7 @@ Qx
 vh
 Fo
 ZS
-vh
+jo
 rF
 tr
 wQ
@@ -2990,21 +3144,21 @@ Ts
 Wj
 Ib
 Oo
-vh
+jo
 Mf
-Fo
-Fo
-Fo
-Fo
-Fo
+cb
+cb
+cb
+cb
+cb
 HI
-Vi
+gA
 Vi
 yC
 yC
 "}
 (22,1,1) = {"
-vh
+Jy
 zl
 yl
 Ro
@@ -3012,7 +3166,7 @@ hO
 vh
 Fo
 ZS
-vh
+jo
 rS
 tu
 wS
@@ -3021,21 +3175,21 @@ CY
 wS
 IW
 Ou
-vh
-Fo
-Fo
-Fo
-Fo
-Fo
+jo
+cb
+cb
+cb
+cb
+cb
 Ht
 Xb
-vh
+jo
 Vi
 Vi
 yC
 "}
 (23,1,1) = {"
-vh
+Jy
 aB
 yl
 yl
@@ -3043,7 +3197,7 @@ jQ
 vh
 Fo
 ZS
-vh
+jo
 rT
 tR
 lU
@@ -3053,20 +3207,20 @@ Fw
 Jq
 wb
 NA
-Fo
-Fo
+cb
+cb
 XE
 Zt
 oK
 aY
 uU
-vh
+jo
 Zb
 Vi
 Vi
 "}
 (24,1,1) = {"
-vh
+Jy
 aB
 yl
 iQ
@@ -3074,30 +3228,30 @@ Ha
 vh
 Fo
 ZS
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
-vh
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
+jo
 Zb
 Zb
 Vi
 "}
 (25,1,1) = {"
-vh
+Jy
 MY
 tS
 tS
@@ -3128,7 +3282,7 @@ xp
 vh
 "}
 (26,1,1) = {"
-vh
+Jy
 eS
 yl
 KI
@@ -3150,7 +3304,7 @@ Fo
 ZS
 Fo
 Fo
-vZ
+Ql
 tz
 su
 os
@@ -3159,11 +3313,11 @@ MI
 vh
 "}
 (27,1,1) = {"
-vh
-vh
-vh
-vh
-NA
+Jy
+Jy
+Jy
+Jy
+Yq
 vh
 vh
 vh
@@ -3190,16 +3344,16 @@ vh
 vh
 "}
 (28,1,1) = {"
-vh
+Jy
 wm
-Ho
-Ho
-Ho
-vh
+Gu
+Gu
+Gu
+cq
 Vt
-vZ
+cj
 tg
-lG
+Zp
 uC
 xi
 yo
@@ -3207,80 +3361,80 @@ Dg
 FD
 JO
 Pb
-vh
+cq
 SE
 UZ
 YB
 Zy
-vh
+cq
 mR
 rw
 nM
-Fo
+Pl
 wl
-vh
+vz
 "}
 (29,1,1) = {"
-vh
+Jy
 je
 hR
 KO
 jS
-vh
+cq
 Ny
-Fo
+NR
 qK
-Fo
+NR
 uF
 xv
 za
-Fo
-Fo
+NR
+NR
 JS
 Pd
-vh
+cq
 SU
 Wr
 YB
 ZB
-vh
+cq
 kr
-Fo
+Pl
 pR
-Fo
+Pl
 wr
-vh
+vz
 "}
 (30,1,1) = {"
-vh
-vh
-vh
-vh
-vh
-vh
+Jy
+Jy
+Jy
+Jy
+Jy
+cq
 FH
-Fo
+NR
 qK
-Fo
+NR
 lC
 Ix
 zV
-Fo
-Fo
-Fo
+NR
+NR
+NR
 Pf
-vh
+cq
 SV
 Wt
 YB
 ZH
-vh
+cq
 vZ
 rj
 OE
-Fo
+Pl
 wf
-vh
+vz
 "}
 (31,1,1) = {"
 yC
@@ -3288,30 +3442,30 @@ yC
 yC
 yC
 yC
-vh
+cq
 kU
-mR
+SG
 qU
-lG
+Zp
 vs
 xW
 AO
 za
-Fo
-Fo
+NR
+NR
 PB
-vh
+cq
 SW
 Wt
 YB
 ZI
-vh
-vh
-vh
+cq
+vz
+vz
 qX
-vh
-vh
-vh
+vz
+vz
+vz
 "}
 (32,1,1) = {"
 yC
@@ -3319,7 +3473,7 @@ yC
 yC
 yC
 yC
-vh
+cq
 lE
 nk
 kY
@@ -3336,11 +3490,11 @@ SW
 Wz
 YB
 ZX
-vh
+cq
 jX
-Vi
+df
 kr
-Vi
+df
 jX
 jX
 "}
@@ -3350,28 +3504,28 @@ yC
 yC
 yC
 yC
-vh
-vh
-vh
-vh
-vh
+cq
+cq
+cq
+cq
+cq
 vX
-vh
-vh
+cq
+cq
 XC
-Vi
-Vi
+hF
+hF
 Qa
 Xq
 SW
 WD
 YC
 bO
-vh
+cq
 jX
-Vi
+df
 qZ
-Vi
+df
 bX
 jX
 "}
@@ -3382,13 +3536,13 @@ yC
 yC
 yC
 yC
-vh
+cq
 no
 Rc
 Rc
-wb
+iz
 yg
-vh
+cq
 Dw
 Ym
 Ym
@@ -3398,7 +3552,7 @@ Te
 WO
 YB
 PD
-vh
+cq
 jX
 jX
 jX
@@ -3413,23 +3567,23 @@ yC
 yC
 yC
 yC
-vh
+cq
 nY
-Ho
-Ho
-Ho
-Ho
-vh
+Ik
+Ik
+Ik
+Ik
+cq
 Ym
 Ym
 Ym
 Ym
 RA
 QY
-vh
-vh
-vh
-vh
+cq
+cq
+cq
+cq
 jX
 jX
 jX
@@ -3444,18 +3598,18 @@ yC
 yC
 yC
 yC
-vh
+cq
 om
-Ho
+Ik
 FP
 MC
 Wp
-vh
+cq
 Ym
 Ym
 Ym
 Ym
-vh
+cq
 Tj
 yC
 yC
@@ -3475,18 +3629,18 @@ yC
 yC
 yC
 yC
-vh
+cq
 oX
 qu
 qu
 qu
 Pz
-vh
+cq
 DB
 Ym
 Ym
 DB
-vh
+cq
 yC
 yC
 yC
@@ -3506,18 +3660,18 @@ yC
 yC
 yC
 yC
-vh
-vh
-vh
-vh
-vh
+cq
+cq
+cq
+cq
+cq
 cY
-vh
-vh
-vh
-vh
-vh
-vh
+cq
+cq
+cq
+cq
+cq
+cq
 yC
 yC
 yC
